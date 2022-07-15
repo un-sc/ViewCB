@@ -15,13 +15,28 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link href="/"><a className="nav-link active" aria-current="page">首页</a></Link>
+                            <Link href="/">
+                                <a className="nav-link active" aria-current="page">
+                                    <span className="eicon eiconhome" />
+                                    首页
+                                </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/commands"><a className="nav-link active" aria-current="page">命令详解</a></Link>
+                            <Link href="/commands">
+                                <a className="nav-link active" aria-current="page">
+                                    <span className="eicon eiconconsole" />
+                                    命令详解
+                                </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/about"><a className="nav-link active" aria-current="page">关于</a></Link>
+                            <Link href="/about">
+                                <a className="nav-link active" aria-current="page">
+                                    <span className="eicon eiconinfo2" />
+                                    关于
+                                </a>
+                            </Link>
                         </li>
                     </ul>
                     {/* <form className="d-flex" role="search">
