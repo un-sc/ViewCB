@@ -90,7 +90,7 @@ export default function IndexBody() {
                     console.log(`script loaded correctly, window.FB has been populated`)
                 }
             /> */}
-            <script src="https://unsc.oss-cn-hongkong.aliyuncs.com/ViewCB/JavaScript/count.js" />
+            <script src="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/JavaScript/count.js" />
             <Script
                 src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"
                 onLoad={() =>
