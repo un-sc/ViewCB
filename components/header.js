@@ -14,7 +14,8 @@ export default function Header() {
             <meta name="verify" content="index,follow" />
             <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet" />
             <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js" />
-            <link href="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/CSS/articles.css?versionId=CAEQNhiBgMDg2MrGjxgiIGVjMWQ0YWMzNjFlMzQ5N2Q4YTk2NGNlYzUzMzMyNjU0" rel="stylesheet" />
+            <link href="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/CSS/articles.css" rel="stylesheet" />
+            <link rel="stylesheet" href="https://unsc.oss-accelerate.aliyuncs.com/Eicon/CSS/v1.eicon.main.css" />
         </Head>
     )
 }
