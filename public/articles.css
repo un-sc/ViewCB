@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .container article div p img {
-    height: 300px;
-  }
+  height: 300px;
+}
