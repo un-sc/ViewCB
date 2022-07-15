@@ -9,7 +9,10 @@ export default function About() {
             </Head>
             <div className='row gy-5'>
                 <div className='col-12'>
-                    <img src="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/logo.PNG" style={{ width: 100 + "%" }} />
+                    <figure className="figure">
+                        <img src="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/logo.PNG" className="figure-img img-fluid rounded" alt="..." />
+                            <figcaption className="figure-caption">Copyright © 2022 ViewCB. All rights reserved.</figcaption>
+                    </figure>
                 </div>
                 <div className='col-12'>
                     <h1>ViewCB 我的世界指令百科全书</h1>
