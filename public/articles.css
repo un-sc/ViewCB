@@ -1,6 +1,9 @@
 a {
   text-decoration: none;
 }
+a #redText {
+  color:rgb(255, 94, 126)
+}
 
 .container article div p img {
   height: 300px;
