@@ -13,7 +13,7 @@ export default function Footer() {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <a className="nav-link active">
-                                Copyright © 2022 <Link href="/">ViewCB</Link>. All rights reserved. 
+                                Copyright © 2022 ViewCB. All rights reserved. 
                             </a>
                         </li>
                     </ul>
