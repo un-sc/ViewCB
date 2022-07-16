@@ -170,6 +170,28 @@ export default function CmdList() {
                 <div className="col-sm-3">
                     <div className="card" style={{ height: 160 }}>
                         <div className="card-body">
+                            <h5 className="card-title">/structure</h5>
+                            <p className="card-text">其功能类似于结构方块，可对结构进行保存、加载、删除等操作。</p>
+                            <Link href="/commands/structure">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
+                            <h5 className="card-title">/tickingarea</h5>
+                            <p className="card-text">对常加载区块进行操作。</p>
+                            <Link href="/commands/tickingarea">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
                             <h5 className="card-title">/title</h5>
                             <p className="card-text">title指令可以用于在玩家屏幕上显示文字。</p>
                             <Link href="/commands/title">
