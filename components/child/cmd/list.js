@@ -104,6 +104,17 @@ export default function CmdList() {
                 <div className="col-sm-3">
                     <div className="card" style={{ height: 160 }}>
                         <div className="card-body">
+                            <h5 className="card-title">/give</h5>
+                            <p className="card-text">给予玩家物品。</p>
+                            <Link href="/commands/give">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
                             <h5 className="card-title">/kill</h5>
                             <p className="card-text">对实体进行清除。</p>
                             <Link href="/commands/kill">
