@@ -148,6 +148,17 @@ export default function CmdList() {
                 <div className="col-sm-3">
                     <div className="card" style={{ height: 160 }}>
                         <div className="card-body">
+                            <h5 className="card-title">/msg</h5>
+                            <p className="card-text">对其他玩家发送私聊消息。此命令等效于/tell和/w。</p>
+                            <Link href="/commands/msg">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
                             <h5 className="card-title">/op</h5>
                             <p className="card-text">给予玩家管理员权限。</p>
                             <Link href="/commands/op">
@@ -192,6 +203,17 @@ export default function CmdList() {
                 <div className="col-sm-3">
                     <div className="card" style={{ height: 160 }}>
                         <div className="card-body">
+                            <h5 className="card-title">/tell</h5>
+                            <p className="card-text">对其他玩家发送私聊消息。此命令等效于/msg和/w。</p>
+                            <Link href="/commands/tell">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
                             <h5 className="card-title">/tickingarea</h5>
                             <p className="card-text">对常加载区块进行操作。</p>
                             <Link href="/commands/tickingarea">
@@ -206,6 +228,17 @@ export default function CmdList() {
                             <h5 className="card-title">/title</h5>
                             <p className="card-text">title指令可以用于在玩家屏幕上显示文字。</p>
                             <Link href="/commands/title">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
+                            <h5 className="card-title">/w</h5>
+                            <p className="card-text">对其他玩家发送私聊消息。此命令等效于/msg和/tell。</p>
+                            <Link href="/commands/w">
                                 <MyButton />
                             </Link>
                         </div>
