@@ -1,7 +1,7 @@
 ---
 title: "命令give"
 date: "2022-07-13"
-keywords: "give指令,杀死玩家,清除实体,give用法"
+keywords: "give指令,给予物品,give用法"
 ---
 
 ---
