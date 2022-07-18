@@ -71,6 +71,17 @@ export default function CmdList() {
                 <div className="col-sm-3">
                     <div className="card" style={{ height: 160 }}>
                         <div className="card-body">
+                            <h5 className="card-title">/difficulty</h5>
+                            <p className="card-text">设置游戏的难度。</p>
+                            <Link href="/commands/difficulty" passHref>
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
                             <h5 className="card-title">/fill</h5>
                             <p className="card-text">该指令可对指定区域进行方块填充。</p>
                             <Link href="/commands/fill">
