@@ -1,7 +1,7 @@
 ---
 title: "命令weather"
 date: "2022-07-18"
-keywords: "weather指令,游戏难度,weather用法"
+keywords: "weather指令,我的世界切换天气,weather用法"
 ---
 
 ---
