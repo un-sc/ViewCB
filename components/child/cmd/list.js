@@ -38,6 +38,17 @@ export default function CmdList() {
                 <div className="col-sm-3">
                     <div className="card" style={{ height: 160 }}>
                         <div className="card-body">
+                            <h5 className="card-title">/clearspawnpoint</h5>
+                            <p className="card-text">清除玩家的重生点。</p>
+                            <Link href="/commands/clearspawnpoint">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
                             <h5 className="card-title">/clone</h5>
                             <p className="card-text">用于对指定区域内的方块进行复制到另一区域这一操作。</p>
                             <Link href="/commands/clone">
