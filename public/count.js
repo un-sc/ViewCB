@@ -1,13 +1,13 @@
 let pageNum = [
 
     {
-        "cmd": 22
+        "cmd": 23
     },
     {
         "use": 0
     },
     {
-        "pages": 26
+        "pages": 27
     }
 ]
 
