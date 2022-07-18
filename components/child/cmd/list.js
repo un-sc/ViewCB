@@ -269,6 +269,17 @@ export default function CmdList() {
                 <div className="col-sm-3">
                     <div className="card" style={{ height: 160 }}>
                         <div className="card-body">
+                            <h5 className="card-title">/weather</h5>
+                            <p className="card-text">设置当前世界的天气。</p>
+                            <Link href="/commands/weather">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
                             <h5 className="card-title">/xp</h5>
                             <p className="card-text">给予或扣除玩家的经验。</p>
                             <Link href="/commands/xp">
