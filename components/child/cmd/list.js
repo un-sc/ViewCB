@@ -248,6 +248,17 @@ export default function CmdList() {
                     <div className="card" style={{ height: 160 }}>
                         <div className="card-body">
                             <h5 className="card-title">/title</h5>
+                            <p className="card-text">设置当前世界的天气。</p>
+                            <Link href="/commands/toggledownfall">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
+                            <h5 className="card-title">/toggledownfall</h5>
                             <p className="card-text">title指令可以用于在玩家屏幕上显示文字。</p>
                             <Link href="/commands/title">
                                 <MyButton />
