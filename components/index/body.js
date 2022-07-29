@@ -97,6 +97,19 @@ export default function IndexBody() {
                     console.log(`script loaded correctly, window.FB has been populated`)
                 }
             />
+            {/* <Script
+                src="https://cdn.bootcdn.net/ajax/libs/echarts/5.3.3/echarts.min.js"
+                onLoad={() =>
+                    console.log(`script loaded correctly, window.FB has been populated`)
+                }
+            /> */}
+            {/* <Script
+                src="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/JavaScript/echarts/countInf.js"
+                onLoad={() =>
+                    console.log(`script loaded correctly, window.FB has been populated`)
+                }
+            /> */}
+            
         </div>
     )
 }
