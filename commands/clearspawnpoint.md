@@ -1,7 +1,7 @@
 ---
-title: "命令clearspawnpoint
+title: "命令clearspawnpoint"
 date: "2022-07-18"
-keywords: "clearspawnpoint指令,游戏难度,clearspawnpoint用法"
+keywords: "clearspawnpoint指令,玩家重生点,clearspawnpoint用法"
 ---
 
 ---
