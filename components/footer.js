@@ -16,6 +16,11 @@ export default function Footer() {
                                 Copyright © 2022 ViewCB. All rights reserved. 
                             </a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link active" href='http://beian.miit.gov.cn/' target="_blank">
+                                冀ICP备2022016585号
+                            </a>
+                        </li>
                     </ul>
 
                 </div>
