@@ -1,7 +1,7 @@
 ---
 title: "命令structure"
 date: "2022-07-16"
-keywords: "structure指令,结构方块,structure用法"
+keywords: "structure指令,结构方块,加载结构,structure用法"
 ---
 
 ---
