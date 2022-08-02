@@ -1,7 +1,6 @@
 ---
-title: "命令---
 title: "命令particle"
-date: "2022-07-11"
+date: "2022-08-02"
 keywords: "particle指令,粒子效果,particle用法"
 ---
 
