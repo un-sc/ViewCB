@@ -38,7 +38,8 @@ export default function Post({ postData }) {
                     <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                 </article>
                 <hr />
-                
+                本页面内容存在问题或有待完善补充？您可以<Link href="https://www.wenjuan.com/s/UZBZJv18XE3/"><a target="_blank">前往此处</a></Link>提交您的宝贵意见
+                <hr />
                 <ul className="nav nav-pills">
                     <li className="nav-item">
                         <Link href="/commands" >
