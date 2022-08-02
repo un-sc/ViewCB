@@ -93,6 +93,17 @@ export default function CmdList() {
                 <div className="col-sm-3">
                     <div className="card" style={{ height: 160 }}>
                         <div className="card-body">
+                            <h5 className="card-title">/enchant</h5>
+                            <p className="card-text">给实体手持物品进行附魔。</p>
+                            <Link href="/commands/enchant" passHref>
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
                             <h5 className="card-title">/fill</h5>
                             <p className="card-text">该指令可对指定区域进行方块填充。</p>
                             <Link href="/commands/fill">
@@ -184,6 +195,17 @@ export default function CmdList() {
                             <h5 className="card-title">/op</h5>
                             <p className="card-text">给予玩家管理员权限。</p>
                             <Link href="/commands/op">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
+                            <h5 className="card-title">/particle</h5>
+                            <p className="card-text">在某位置生成粒子效果。</p>
+                            <Link href="/commands/particle">
                                 <MyButton />
                             </Link>
                         </div>
