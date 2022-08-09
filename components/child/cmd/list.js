@@ -236,6 +236,17 @@ export default function CmdList() {
                 <div className="col-sm-3">
                     <div className="card" style={{ height: 160 }}>
                         <div className="card-body">
+                            <h5 className="card-title">/spreadplayers</h5>
+                            <p className="card-text">将实体随机传送至某一指定区域内的随机位置。</p>
+                            <Link href="/commands/spreadplayers">
+                                <MyButton />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-3">
+                    <div className="card" style={{ height: 160 }}>
+                        <div className="card-body">
                             <h5 className="card-title">/structure</h5>
                             <p className="card-text">其功能类似于结构方块，可对结构进行保存、加载、删除等操作。</p>
                             <Link href="/commands/structure">
