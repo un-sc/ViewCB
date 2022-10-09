@@ -106,23 +106,35 @@ keywords: "scoreboard指令,计分板,scoreboard用法"
 ## 用法举例
 
 **类型①：**
+
 `/scoreboard objectives add wel dummy Hello` 创建一个名为wel的计分板，显示名称为Hello。
+
 `/scoreboard objectives list` 列出目前所有存在的计分板。
+
 `/scoreboard remove wel` 删除名为wel的计分板。
 
 **类型②：**
+
 `/scoreboard objectives setdisplay sidebar` 清空玩家屏幕右边正在显示的计分板。
+
 `/scoreboard objectives list sidebar wel` 在暂停菜单中的玩家列表中显示名为wel的计分板。
 
 **类型③：**
+
 `/scoreboard players add @a coin 1` 给在线的全体玩家的coin计分板上的分数增加1
+
 `/scoreboard players set Lianan time 100` 将Lianan的coin计分板的分数设置为100
+
 `/scoreboard players reset @r coin` 随机选择一个在线玩家，使其coin计分板的分数信息被清空。
 
 **类型④：**
+
 `/scoreboard players operation @r sc = Lianan time` 随机选择一个在线的玩家，使其sc计分板上的分数等于Lianan在time计分板上的分数。
+
 `/scoreboard players operation Lianan coin += @p coin` 将Lianan的coin计分板上的分数，加上距离命令发出地最近一个玩家的coin计分板分数。
 
 **类型⑤：**
+
 `/scoreboard players test Lianan coin 100` 检测Lianan的coin计分板上的分数是否在100到2147483647这个范围内。
+
 `/scoreboard players random @a time 0 100` 将在线的每个人的time计分板的分数随机设置在0到100这个范围内
