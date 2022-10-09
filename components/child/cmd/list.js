@@ -333,6 +333,22 @@ export default function CmdList() {
                     </Link>
                 </div>
                 <div className="col-sm-3">
+                    <Link href="/commands/scoreboard" passHref>
+                        <a>
+                            <div className="card" style={{ height: 160 }}>
+                                <div className="card-body">
+                                    <h5 className="card-title">/scoreboard</h5>
+                                    <p className="card-text" style={{ color: "black" }}>记录某一目标对应的分数信息并提供相应的查询、更改等操作。</p>
+
+
+
+                                </div>
+                            </div>
+
+                        </a>
+                    </Link>
+                </div>
+                <div className="col-sm-3">
                     <Link href="/commands/spreadplayers" passHref>
                         <a>
                             <div className="card" style={{ height: 160 }}>
