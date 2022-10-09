@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link'
+import pageNum from '../../public/count'
 
 export default function About() {
     return (
@@ -18,7 +19,7 @@ export default function About() {
                     <h1>ViewCB 我的世界指令百科全书</h1>
                     <hr />
                     <h2>建设目的和初衷</h2>
-                    <p className='lead'>ViewCB是一款我的世界基岩版命令的在线查阅平台，本站所有内容不收取任何费用。ViewCB的创建只是用于对知识的分享，不存在任何商业化模式，它更不是赚钱的工具，您也可能发现甚至连一条广告都不存在，这更加体现了ViewCB的创办性质。</p>
+                    <p className='lead'>ViewCB是一款我的世界基岩版命令的在线查阅平台，截至目前累计收录{pageNum[0].cmd}条指令的详细解释。本站所有内容不收取任何费用。ViewCB的创建只是用于对知识的分享，不存在任何商业化模式，它更不是赚钱的工具，您也可能发现甚至连一条广告都不存在，这更加体现了ViewCB的创办性质。</p>
                     <p className='lead'>ViewCB作为公益性的在线查阅平台，将不存在任何的收入形式，我们也努力将维护成本压至最低，每月不超过50元，但依然能为您带来良好的使用体验。</p>
                     <p className='lead'>ViewCB为了避免不必要的麻烦，并不直接开放公众对文献的更改权限，但您依然可以对ViewCB做出贡献。如果您想帮助ViewCB做出改进或对内容进行修订、补充等，欢迎您<Link href="/contribute"><a>查阅此处</a></Link>。</p>
                     <p className='lead'>ViewCB始终坚持尊重原创的态度，对于内容的引用都做出了明显的标记。同时ViewCB的大部分内容均为原创，可MC指令是具有标准性的，因此难免与他人会有雷同，这就好比说很多书上都提到了相同的一元二次方程解法，难道你能说他们是抄袭而来的吗？恐怕不行。</p>
