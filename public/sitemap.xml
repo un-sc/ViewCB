@@ -3,151 +3,151 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
       <loc>https://viewcb.net/</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-10-09</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-10-09</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
 </url>
 <url>
       <loc>https://viewcb.net/about</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-10-09</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
 </url>
 <url>
       <loc>https://viewcb.net/contribute</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-08-01</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/alwaysday</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-11</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/clear</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-11</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/clearspawnpoint</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-18</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/clone</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-11</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/daylock</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/deop</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-18</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/difficulty</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-18</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/enchant</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-08-02</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/fill</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-11</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/gamemode</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-13</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/gamerule</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-13</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/give</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-13</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/kill</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-13</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/list</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-13</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/locate</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-13</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/msg</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-17</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/op</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/particle</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-08-02</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/playsound</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/say</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-13</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/scoreboard</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-10-09</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
@@ -159,79 +159,79 @@
 </url>
 <url>
       <loc>https://viewcb.net/commands/structure</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-16</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/tell</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-17</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/testfor</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-10-09</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/tickingarea</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/title</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-18</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/toggledownfall</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-13</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/w</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-17</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/weather</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-18</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/xp</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-13</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/%E7%9B%AE%E6%A0%87%E9%80%89%E6%8B%A9%E5%99%A8</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/%E6%9D%83%E9%99%90%E7%AD%89%E7%BA%A7</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-13</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/%E5%A3%B0%E9%9F%B3%E5%88%97%E8%A1%A8</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
 <url>
       <loc>https://viewcb.net/commands/%E5%9D%90%E6%A0%87</loc>
-      <lastmod>2005-01-01</lastmod>
+      <lastmod>2022-07-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>
