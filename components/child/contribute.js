@@ -28,13 +28,13 @@ export default function Contribute() {
                         <li>邮箱：<Link href='mailto: 2779799659@qq.com'><a>2779799659@qq.com</a></Link></li>
                     </ul>
                     <hr />
-                    <ul className="nav nav-pills">
+                    {/* <ul className="nav nav-pills">
                         <li className="nav-item">
                             <Link href="/about" >
                                 <a className="nav-link" aria-current="page">{"<---返回关于页面"}</a>
                             </Link>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
         </>
