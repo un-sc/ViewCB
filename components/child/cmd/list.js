@@ -13,6 +13,22 @@ export default function CmdList() {
     return (
         <div className='col-12'>
             <div className="row">
+            <div className="col-sm-3">
+                    <Link href="/commands/help" passHref>
+                        <a>
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">/?</h5>
+                                    <p className="card-text" style={{ color: "black" }}>获取我的世界对于指令的帮助信息。此命令等效于/help。</p>
+
+
+
+                                </div>
+                            </div>
+
+                        </a>
+                    </Link>
+                </div>
                 <div className="col-sm-3">
                     <Link href="/commands/alwaysday" passHref>
                         <a>
@@ -195,6 +211,22 @@ export default function CmdList() {
                                 <div className="card-body">
                                     <h5 className="card-title">/give</h5>
                                     <p className="card-text" style={{ color: "black" }}>给予玩家物品。</p>
+
+
+
+                                </div>
+                            </div>
+
+                        </a>
+                    </Link>
+                </div>
+                <div className="col-sm-3">
+                    <Link href="/commands/help" passHref>
+                        <a>
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">/help</h5>
+                                    <p className="card-text" style={{ color: "black" }}>获取我的世界对于指令的帮助信息。此命令等效于/?。</p>
 
 
 
