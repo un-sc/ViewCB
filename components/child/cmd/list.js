@@ -285,6 +285,22 @@ export default function CmdList() {
                     </Link>
                 </div>
                 <div className="col-sm-3">
+                    <Link href="/commands/me" passHref>
+                        <a>
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">/me</h5>
+                                    <p className="card-text" style={{ color: "black" }}>自己对自己发送一条消息，仅自己可见。</p>
+
+
+
+                                </div>
+                            </div>
+
+                        </a>
+                    </Link>
+                </div>
+                <div className="col-sm-3">
                     <Link href="/commands/msg" passHref>
                         <a>
                             <div className="card">
