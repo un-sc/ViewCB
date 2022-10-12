@@ -1,5 +1,5 @@
 ---
-title: "命令deop"
+title: "命令difficulty"
 date: "2022-07-18"
 keywords: "difficulty指令,游戏难度,difficulty用法"
 ---
