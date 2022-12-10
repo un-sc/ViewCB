@@ -11,7 +11,7 @@ export default function IndexBody() {
                 <title>ViewCB - 我的世界指令百科全书</title>
                 <meta name="keywords" content="我的世界指令,基岩版命令,命令教程" />
                 <meta name="description" content="ViewCB - 我的世界基岩版的命令百科全书，为您带来无障碍、易于理解的基岩版指令百科。" />
-                
+
             </Head>
             <div className="col-12">
                 <div className="row gy-5">
@@ -27,7 +27,14 @@ export default function IndexBody() {
             <div className="col-12">
                 <div className="card text-center">
                     <div className="card-header">
-                        ViewCB
+                        <span class="colorize_fun">
+                            <span style={{color:"#ff0000"}}>V</span>
+                            <span style={{color:"#cc0032"}}>i</span>
+                            <span style={{color:"#990064"}}>e</span>
+                            <span style={{color:"#660097"}}>w</span>
+                            <span style={{color:"#3200c9"}}>C</span>
+                            <span style={{color:"#0000fc"}}>B</span>
+                        </span>
                     </div>
                     <div className="card-body">
                         <h5 className="card-title"><b>指令详解</b></h5>
@@ -109,7 +116,7 @@ export default function IndexBody() {
                     console.log(`script loaded correctly, window.FB has been populated`)
                 }
             /> */}
-            
+
         </div>
     )
 }
