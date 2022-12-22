@@ -481,7 +481,7 @@ export default function CmdList() {
                         <a>
                             <div className="card">
                                 <div className="card-body">
-                                    <h5 className="card-title">/title</h5>
+                                    <h5 className="card-title">/toggledownfall</h5>
                                     <p className="card-text" style={{ color: "black" }}>设置当前世界的天气。</p>
 
 
@@ -497,7 +497,7 @@ export default function CmdList() {
                         <a>
                             <div className="card">
                                 <div className="card-body">
-                                    <h5 className="card-title">/toggledownfall</h5>
+                                    <h5 className="card-title">/title</h5>
                                     <p className="card-text" style={{ color: "black" }}>title指令可以用于在玩家屏幕上显示文字。</p>
 
 

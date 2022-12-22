@@ -28,12 +28,12 @@ export default function IndexBody() {
                 <div className="card text-center">
                     <div className="card-header">
                         <span class="colorize_fun">
-                            <span style={{color:"#ff0000"}}>V</span>
-                            <span style={{color:"#cc0032"}}>i</span>
-                            <span style={{color:"#990064"}}>e</span>
-                            <span style={{color:"#660097"}}>w</span>
-                            <span style={{color:"#3200c9"}}>C</span>
-                            <span style={{color:"#0000fc"}}>B</span>
+                            <span style={{ color: "#ff0000" }}>V</span>
+                            <span style={{ color: "#cc0032" }}>i</span>
+                            <span style={{ color: "#990064" }}>e</span>
+                            <span style={{ color: "#660097" }}>w</span>
+                            <span style={{ color: "#3200c9" }}>C</span>
+                            <span style={{ color: "#0000fc" }}>B</span>
                         </span>
                     </div>
                     <div className="card-body">
@@ -90,6 +90,35 @@ export default function IndexBody() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <hr />
+            <div className="col-6">
+                <h3>友情链接</h3>
+                <ol class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <a href="https://www.mcnav.net/" target="_blank" style={{color:"black"}}>
+                                <div class="fw-bold">MCNav导航</div>
+                                一个强大好用的Minecraft网址导航站，致力于收录最全面的MC网址和工具，为广大MC爱好者提供便利。
+                            </a>
+                        </div>
+                        <span class="badge bg-primary rounded-pill">2022-12-10</span>
+                    </li>
+                    {/* <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Content for list item
+                        </div>
+                        <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Content for list item
+                        </div>
+                        <span class="badge bg-primary rounded-pill">14</span>
+                    </li> */}
+                </ol>
             </div>
             {/* <Script
                 src="https://unsc.oss-cn-hongkong.aliyuncs.com/ViewCB/JavaScript/count.js"
