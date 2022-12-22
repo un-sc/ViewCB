@@ -30,6 +30,6 @@ PS：普通成员虽然看不到你对其他人发送的私聊消息，但是管
 
 ## 用法举例
 
-`/w un50 hell @r`  获取距离命令发出者最近的最近的林地府邸的坐标。
+`/w un50 hello @r`  对un50发生消息 hello (@r会显示随机一个玩家的玩家名)。
 
-`/w @p There is a message`  在尚未生成的区块中获取距离命令发出者最近的最近的沉船的坐标。
+`/w @p There is a message`  对离命令发出地最近的玩家说There is a message。
