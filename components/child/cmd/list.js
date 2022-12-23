@@ -142,6 +142,21 @@ export default function CmdList() {
                     </Link>
                 </div>
                 <div className="col-sm-3">
+                    <Link href="/commands/effect" passHref>
+                        <a>
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">/effect</h5>
+                                    <p className="card-text" style={{ color: "black" }}>给予玩家指定的效果buff。</p>
+
+
+                                </div>
+                            </div>
+
+                        </a>
+                    </Link>
+                </div>
+                <div className="col-sm-3">
                     <Link href="/commands/enchant" passHref>
                         <a>
                             <div className="card">
