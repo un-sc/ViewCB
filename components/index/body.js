@@ -145,6 +145,9 @@ export default function IndexBody() {
                     console.log(`script loaded correctly, window.FB has been populated`)
                 }
             /> */}
+            {/* Google tag (gtag.js) */}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-70RMB2VDTC"></script>
+            <script src='https://viewcb.oss-cn-beijing.aliyuncs.com/JavaScript/google.js'></script>
 
         </div>
     )
