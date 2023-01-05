@@ -2,12 +2,17 @@ import date1 from '../child/cmd/json/cmds.json'
 import React from "react";
 import ReactDOM from "react-dom";
 import Link from 'next/link';
+import { useEffect, useState } from 'react'
 
 function MakeNum(List) {
-    let num1 = Math.round(Math.random() * date1.length);
-    let num2 = Math.round(Math.random() * date1.length);
-    let num3 = Math.round(Math.random() * date1.length);
-    let num4 = Math.round(Math.random() * date1.length);
+    const [num1, setNum1] = useState(Math.round(Math.random() * date1.length))
+    const [num2, setNum2] = useState(Math.round(Math.random() * date1.length))
+    const [num3, setNum3] = useState(Math.round(Math.random() * date1.length))
+    const [num4, setNum4] = useState(Math.round(Math.random() * date1.length))
+    useEffect(() => setNum1(Math.round(Math.random() * date1.length)), [])
+    useEffect(() => setNum2(Math.round(Math.random() * date1.length)), [])
+    useEffect(() => setNum3(Math.round(Math.random() * date1.length)), [])
+    useEffect(() => setNum4(Math.round(Math.random() * date1.length)), [])
     switch (List) {
         case 1:
             return (
