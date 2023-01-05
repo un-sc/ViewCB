@@ -1,9 +1,13 @@
 import path from "path"
+import React from 'react';
+import { Divider, Card } from '@arco-design/web-react';
+const { Meta } = Card;
 import Link from 'next/link';
 import Head from 'next/head';
 import IndexNumList from "./number";
 import NoticeContent from "./notice";
 import CcWarn from "./cc";
+import RandomCard from "./random";
 
 export default function IndexBody() {
     return (
@@ -24,7 +28,11 @@ export default function IndexBody() {
                     </div>
                 </div>
             </div>
-            <hr />
+            <Divider
+                style={{
+                    borderBottomStyle: 'dashed',
+                }}
+            />
             <div className="col-12">
                 <div className="card text-center">
                     <div className="card-header">
@@ -44,7 +52,7 @@ export default function IndexBody() {
                             <a className="btn btn-primary">Get Start</a>
                         </Link>
                     </div>
-                    <hr />
+                    <Divider />
                     <div className="card-body">
                         <h5 className="card-title"><b>应用实例</b></h5>
                         <p className="card-text">这里有一些通过指令实现的功能，为您提供解决方案和参考内容。</p>
@@ -52,48 +60,64 @@ export default function IndexBody() {
                     </div>
                 </div>
             </div>
+            <Divider
+                style={{
+                    borderBottomStyle: 'dashed',
+                }}
+            />
             <div className="col-12">
                 <div className='row'>
-                    <div className='col'>
+                    <div className='col' style={{ marginTop: 10, marginBottom: 10 }}>
                         <IndexNumList />
                     </div>
-                    <div className='col'>
+                    <div className='col' style={{ marginTop: 10, marginBottom: 10 }}>
                         <NoticeContent />
                     </div>
-                    <div className="col">
+                    <div className="col" style={{ marginTop: 10, marginBottom: 10 }}>
                         <CcWarn />
                     </div>
                 </div>
             </div>
-            <hr />
-            <div className="col-6">
-                <h3>友情链接</h3>
-                <ol className="list-group">
-                    <li className="list-group-item d-flex justify-content-between align-items-start">
-                        <div className="ms-2 me-auto">
-                            <a href="https://www.mcnav.net/" target="_blank">
-                                <div className="fw-bold">MCNav导航</div>
-                            </a>
-                                一个强大好用的Minecraft网址导航站，致力于收录最全面的MC网址和工具，为广大MC爱好者提供便利。
-                            
-                        </div>
-                        <span className="badge bg-primary rounded-pill">2022-12-10</span>
-                    </li>
-                    {/* <li className="list-group-item d-flex justify-content-between align-items-start">
-                        <div className="ms-2 me-auto">
-                            <div className="fw-bold">Subheading</div>
-                            Content for list item
-                        </div>
-                        <span className="badge bg-primary rounded-pill">14</span>
-                    </li>
-                    <li className="list-group-item d-flex justify-content-between align-items-start">
-                        <div className="ms-2 me-auto">
-                            <div className="fw-bold">Subheading</div>
-                            Content for list item
-                        </div>
-                        <span className="badge bg-primary rounded-pill">14</span>
-                    </li> */}
-                </ol>
+            <Divider
+                style={{
+                    borderBottomStyle: 'dashed',
+                }}
+            />
+            <h3>随机内容推荐</h3>
+            <RandomCard />
+            <Divider
+                style={{
+                    borderBottomStyle: 'dashed',
+                }}
+            />
+             <h3>友情链接</h3>
+            <div className="col-6 col-sm-12">
+                <div style={{ display: 'flex' }} >
+                    <a href='https://www.mcnav.net/' target='_blank'>
+                        <Card
+                            hoverable
+                            style={{ width: 360 }}
+                            cover={
+                                <div style={{ height: 'auto', overflow: 'hidden'}}>
+                                    <img
+                                        style={{ width: '100%' }}
+                                        alt='dessert'
+                                        src='https://www.mcnav.net/wp-content/uploads/2021/08/1627802933-logo-2x.gif'
+                                    />
+                                </div>
+                            }
+                        >
+                            <Meta
+                                title='MCNav导航'
+                                description={
+                                    <>
+                                        一个强大好用的Minecraft网址导航站，致力于收录最全面的MC网址和工具，为广大MC爱好者提供便利。
+                                    </>
+                                }
+                            />
+                        </Card>
+                    </a>
+                </div>
             </div>
         </div>
     )
