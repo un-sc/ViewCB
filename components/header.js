@@ -12,7 +12,7 @@ export default function Header() {
             <meta name="google" content="index,follow" />
             <meta name="googlebot" content="index,follow" />
             <meta name="verify" content="index,follow" />
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+            <link href="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/CSS/bootstrap.min.css" rel="stylesheet" />
             <link href="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/CSS/articles.css" rel="stylesheet" />
             <link rel="stylesheet" href="https://unsc.oss-accelerate.aliyuncs.com/Eicon/CSS/v1.eicon.main.css" />
         </Head>
