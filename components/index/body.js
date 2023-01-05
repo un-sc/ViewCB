@@ -1,8 +1,8 @@
 import path from "path"
 import Link from 'next/link';
 import Head from 'next/head';
-import Script from 'next/script';
-import pageNum from '../../public/count'
+import date1 from "../child/cmd/json/cmds.json"
+import date2 from "../child/cmd/json/other.json"
 
 export default function IndexBody() {
     return (
@@ -27,7 +27,7 @@ export default function IndexBody() {
             <div className="col-12">
                 <div className="card text-center">
                     <div className="card-header">
-                        <span class="colorize_fun">
+                        <span className="colorize_fun">
                             <span style={{ color: "#ff0000" }}>V</span>
                             <span style={{ color: "#cc0032" }}>i</span>
                             <span style={{ color: "#990064" }}>e</span>
@@ -57,15 +57,15 @@ export default function IndexBody() {
                         <ul className="list-group">
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                                 累计收录指令详解
-                                <span className="badge bg-primary rounded-pill">{pageNum[0].cmd}</span>
+                                <span className="badge bg-primary rounded-pill">{date1.length}</span>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                                 累计指令应用实例
-                                <span className="badge bg-primary rounded-pill">{pageNum[1].use}</span>
+                                <span className="badge bg-primary rounded-pill">0</span>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                                 累计页面数
-                                <span className="badge bg-primary rounded-pill">{pageNum[2].pages}</span>
+                                <span className="badge bg-primary rounded-pill">{4 + date1.length + date2.length}</span>
                             </li>
                         </ul>
                     </div>
@@ -94,61 +94,33 @@ export default function IndexBody() {
             <hr />
             <div className="col-6">
                 <h3>友情链接</h3>
-                <ol class="list-group">
-                    <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                            <a href="https://www.mcnav.net/" target="_blank" style={{color:"black"}}>
-                                <div class="fw-bold">MCNav导航</div>
-                                一个强大好用的Minecraft网址导航站，致力于收录最全面的MC网址和工具，为广大MC爱好者提供便利。
+                <ol className="list-group">
+                    <li className="list-group-item d-flex justify-content-between align-items-start">
+                        <div className="ms-2 me-auto">
+                            <a href="https://www.mcnav.net/" target="_blank">
+                                <div className="fw-bold">MCNav导航</div>
                             </a>
+                                一个强大好用的Minecraft网址导航站，致力于收录最全面的MC网址和工具，为广大MC爱好者提供便利。
+                            
                         </div>
-                        <span class="badge bg-primary rounded-pill">2022-12-10</span>
+                        <span className="badge bg-primary rounded-pill">2022-12-10</span>
                     </li>
-                    {/* <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subheading</div>
+                    {/* <li className="list-group-item d-flex justify-content-between align-items-start">
+                        <div className="ms-2 me-auto">
+                            <div className="fw-bold">Subheading</div>
                             Content for list item
                         </div>
-                        <span class="badge bg-primary rounded-pill">14</span>
+                        <span className="badge bg-primary rounded-pill">14</span>
                     </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subheading</div>
+                    <li className="list-group-item d-flex justify-content-between align-items-start">
+                        <div className="ms-2 me-auto">
+                            <div className="fw-bold">Subheading</div>
                             Content for list item
                         </div>
-                        <span class="badge bg-primary rounded-pill">14</span>
+                        <span className="badge bg-primary rounded-pill">14</span>
                     </li> */}
                 </ol>
             </div>
-            {/* <Script
-                src="https://unsc.oss-cn-hongkong.aliyuncs.com/ViewCB/JavaScript/count.js"
-                onLoad={() =>
-                    console.log(`script loaded correctly, window.FB has been populated`)
-                }
-            /> */}
-            <script src="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/JavaScript/count.js" />
-            <Script
-                src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"
-                onLoad={() =>
-                    console.log(`script loaded correctly, window.FB has been populated`)
-                }
-            />
-            {/* <Script
-                src="https://cdn.bootcdn.net/ajax/libs/echarts/5.3.3/echarts.min.js"
-                onLoad={() =>
-                    console.log(`script loaded correctly, window.FB has been populated`)
-                }
-            /> */}
-            {/* <Script
-                src="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/JavaScript/echarts/countInf.js"
-                onLoad={() =>
-                    console.log(`script loaded correctly, window.FB has been populated`)
-                }
-            /> */}
-            {/* Google tag (gtag.js) */}
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-70RMB2VDTC"></script>
-            <script src='https://viewcb.oss-cn-beijing.aliyuncs.com/JavaScript/google.js'></script>
-
         </div>
     )
 }

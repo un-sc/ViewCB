@@ -6,6 +6,7 @@ import Navbar from '../../components/navbar'
 import Layout from '../../components/layout'
 import Footer from '../../components/footer'
 import PathCmd from '../../components/pathCmd'
+import JavaScriptList from '../../components/import'
 import Link from 'next/link';
 
 function Keywords(text) {
@@ -49,6 +50,7 @@ export default function Post({ postData }) {
                 </ul>
             </Layout>
             <Footer />
+            <JavaScriptList />
         </>
     )
 }

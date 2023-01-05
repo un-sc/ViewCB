@@ -3,6 +3,7 @@ import Navbar from '../components/navbar'
 import Layout from '../components/layout'
 import About from '../components/child/about'
 import Footer from '../components/footer'
+import JavaScriptList from '../components/import'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <About />
       </Layout>
       <Footer />
+      <JavaScriptList />
     </div>
   )
 }
