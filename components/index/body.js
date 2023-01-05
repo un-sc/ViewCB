@@ -90,7 +90,7 @@ export default function IndexBody() {
                     borderBottomStyle: 'dashed',
                 }}
             />
-             <h3>友情链接</h3>
+            <h3>友情链接</h3>
             <div className="col-6 col-sm-12">
                 <div style={{ display: 'flex' }} >
                     <a href='https://www.mcnav.net/' target='_blank'>
@@ -98,7 +98,7 @@ export default function IndexBody() {
                             hoverable
                             style={{ width: 360 }}
                             cover={
-                                <div style={{ height: 'auto', overflow: 'hidden'}}>
+                                <div style={{ height: 'auto', overflow: 'hidden', backgroundColor: "#1d1d1d" }}>
                                     <img
                                         style={{ width: '100%' }}
                                         alt='dessert'
