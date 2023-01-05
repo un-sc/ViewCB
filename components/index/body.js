@@ -102,7 +102,7 @@ export default function IndexBody() {
                                     <img
                                         style={{ width: '100%' }}
                                         alt='dessert'
-                                        src='https://www.mcnav.net/wp-content/uploads/2021/08/1627802933-logo-2x.gif'
+                                        src='https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/mcnav.gif'
                                     />
                                 </div>
                             }
