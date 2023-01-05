@@ -1,8 +1,9 @@
 import path from "path"
 import Link from 'next/link';
 import Head from 'next/head';
-import date1 from "../child/cmd/json/cmds.json"
-import date2 from "../child/cmd/json/other.json"
+import IndexNumList from "./number";
+import NoticeContent from "./notice";
+import CcWarn from "./cc";
 
 export default function IndexBody() {
     return (
@@ -54,40 +55,13 @@ export default function IndexBody() {
             <div className="col-12">
                 <div className='row'>
                     <div className='col'>
-                        <ul className="list-group">
-                            <li className="list-group-item d-flex justify-content-between align-items-center">
-                                累计收录指令详解
-                                <span className="badge bg-primary rounded-pill">{date1.length}</span>
-                            </li>
-                            <li className="list-group-item d-flex justify-content-between align-items-center">
-                                累计指令应用实例
-                                <span className="badge bg-primary rounded-pill">0</span>
-                            </li>
-                            <li className="list-group-item d-flex justify-content-between align-items-center">
-                                累计页面数
-                                <span className="badge bg-primary rounded-pill">{4 + date1.length + date2.length}</span>
-                            </li>
-                        </ul>
+                        <IndexNumList />
                     </div>
                     <div className='col'>
-                        <div className="list-group">
-                            <div className="list-group-item list-group-item-action active" aria-current="true">
-                                <div className="d-flex w-100 justify-content-between">
-                                    <h5 className="mb-1">内容编撰中</h5>
-                                    <small>2022-7-11</small>
-                                </div>
-                                <p className="mb-1">本站正在努力编撰指令详解内容中，未来会不断进行补充完善！</p>
-                                <small>路漫漫其修远兮，吾将上下而求索。</small>
-                            </div>
-                            {/* <a href="#" className="list-group-item list-group-item-action">
-                                <div className="d-flex w-100 justify-content-between">
-                                    <h5 className="mb-1">List group item heading</h5>
-                                    <small className="text-muted">3 days ago</small>
-                                </div>
-                                <p className="mb-1">Some placeholder content in a paragraph.</p>
-                                <small className="text-muted">And some muted small print.</small>
-                            </a> */}
-                        </div>
+                        <NoticeContent />
+                    </div>
+                    <div className="col">
+                        <CcWarn />
                     </div>
                 </div>
             </div>

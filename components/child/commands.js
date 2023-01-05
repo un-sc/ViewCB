@@ -1,7 +1,10 @@
+import React from "react";
+import ReactDOM from "react-dom";
 import Head from 'next/head';
 import Link from 'next/link';
 import date1 from './cmd/json/cmds.json'
 import date2 from './cmd/json/other.json'
+// import CardListFirst from "./cmd/ListFirst";
 
 export default function Commands() {
     return (
@@ -12,12 +15,15 @@ export default function Commands() {
             <h2>命令详解</h2>
             <div className='col-12'>
                 <div className="row">
+                    {/* <CardListFirst/> */}
                     {date1.map(function (item, index) {
                         return (
-                            <div className="col-sm-3" key={index} style={{marginTop:10}}>
-                                <div className="card">
-                                    <div className="card-body">
+                            <div className="col-sm-3 mb-3 mb-sm-0" key={index} style={{ marginTop: 10 }}>
+                                <div className="card border-primary h-100">
+                                    <div className="card-header">
                                         <Link href={item.url} passHref><a><h5 className="card-title">{item.title}</h5></a></Link>
+                                    </div>
+                                    <div className="card-body">
                                         <p className="card-text">{item.description}</p>
                                     </div>
                                 </div>
@@ -32,10 +38,12 @@ export default function Commands() {
                 <div className="row">
                     {date2.map(function (item, index) {
                         return (
-                            <div className="col-sm-3" key={index} style={{marginTop:10}}>
-                                <div className="card">
-                                    <div className="card-body">
+                            <div className="col-sm-3 mb-3 mb-sm-0" key={index} style={{ marginTop: 10 }}>
+                                <div className="card border-primary h-100">
+                                    <div className="card-header">
                                         <Link href={item.url} passHref><a><h5 className="card-title">{item.title}</h5></a></Link>
+                                    </div>
+                                    <div className="card-body">
                                         <p className="card-text">{item.description}</p>
                                     </div>
                                 </div>
@@ -46,7 +54,7 @@ export default function Commands() {
             </div >
             <hr />
             <div className="alert alert-primary" role="alert">
-                更多指令正在编写中，如果您有意参与编写请<Link href="/contribute"><a className='redText' style={{color:"aqua"}}>参考此处</a></Link>
+                更多指令正在编写中，如果您有意参与编写请<Link href="/contribute"><a className='redText' style={{ color: "aqua" }}>参考此处</a></Link>
             </div>
         </div>
     )

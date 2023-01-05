@@ -12,9 +12,9 @@ export default function About() {
             <div className='row gy-5'>
                 <div className='col-12'>
                     <figure className="figure">
-                        
+
                         <img id='bgimg' src="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/viewcb-logo-light.png" className="figure-img img-fluid rounded" alt="ViewCB的logo" />
-                            <figcaption className="figure-caption">Copyright © 2022 ViewCB. All rights reserved.</figcaption>
+                        <figcaption className="figure-caption">Copyright © 2022 ViewCB. All rights reserved.</figcaption>
                     </figure>
                 </div>
                 <div className='col-12'>
@@ -26,7 +26,7 @@ export default function About() {
                     <p className='lead'>ViewCB为了避免不必要的麻烦，并不直接开放公众对文献的更改权限，但您依然可以对ViewCB做出贡献。如果您想帮助ViewCB做出改进或对内容进行修订、补充等，欢迎您<Link href="/contribute"><a>查阅此处</a></Link>。</p>
                     <p className='lead'>ViewCB始终坚持尊重原创的态度，对于内容的引用都做出了明显的标记。同时ViewCB的大部分内容均为原创，可MC指令是具有标准性的，因此难免与他人会有雷同，这就好比说很多书上都提到了相同的一元二次方程解法，难道你能说他们是抄袭而来的吗？恐怕不行。</p>
                     <h2>关于ViewCB网站的建设</h2>
-                    <p className='lead'>对于ViewCB网站的建设，我始终坚持快速、简洁、无障碍的理念。本站通过<a href="https://nextjs.org/" target="_blank">Next.js</a>构建，通过<a href="https://v5.bootcss.com/" target="_blank">Bootstrap</a>生成UI。</p>
+                    <p className='lead'>对于ViewCB网站的建设，我始终坚持快速、简洁、无障碍的理念。本站通过<a href='https://nodejs.org/' target='_blank'>Node.js</a>、<a href='https://reactjs.org/'>React</a>、<a href="https://nextjs.org/" target="_blank">Next.js</a>构建，通过<a href='https://arco.design/' target='_blank'>ArcoDesign</a>、<a href="https://v5.bootcss.com/" target="_blank">Bootstrap</a>、<a href='https://ant.design/' target="_blank">AntDesign</a>生成UI。通过构建时预渲染、服务端渲染、路由预加载、智能打包、零配置等和<a href='https://www.aliyun.com/product/dcdn' target='_blank'>阿里云DCDN</a>来实现高速访问。</p>
                     {/* <h2>参与贡献人员</h2>
                     <p className='lead'>每一位为为ViewCB做出贡献的人员都会被记录在此，他们让ViewCB变得更好。</p>
                     <div className="accordion" id="accordionExample">

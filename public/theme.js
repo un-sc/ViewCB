@@ -3,12 +3,15 @@ let hoursTip = "";
 let get = document.body
 if (date >= 7 && date < 18) {
     get.setAttribute("data-bs-theme", "light")
+    get.removeAttribute('arco-theme');
     console.log("day")
 } else if (date >= 18) {
     get.setAttribute("data-bs-theme", "dark")
+    get.setAttribute('arco-theme', 'dark');
     console.log("night")
 } else {
     get.setAttribute("data-bs-theme", "dark")
+    get.setAttribute('arco-theme', 'dark');
     console.log("night")
 }
 
