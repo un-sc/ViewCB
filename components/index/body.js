@@ -72,16 +72,16 @@ export default function IndexBody() {
             />
             <div className="col-12">
                 <div className='row'>
-                    <div className='col' style={{ marginTop: 10, marginBottom: 10 }}>
+                    <div className='col-md-3 col-xs-12' style={{ marginTop: 10, marginBottom: 10 }}>
                         <IndexNumList />
                     </div>
-                    <div className='col' style={{ marginTop: 10, marginBottom: 10 }}>
+                    <div className='col-md-3 col-xs-12' style={{ marginTop: 10, marginBottom: 10 }}>
                         <NoticeContent />
                     </div>
-                    <div className="col" style={{ marginTop: 10, marginBottom: 10 }}>
+                    <div className="col-md-3 col-xs-12" style={{ marginTop: 10, marginBottom: 10 }}>
                         <CcWarn />
                     </div>
-                    <div className="col" style={{ marginTop: 10, marginBottom: 10 }}>
+                    <div className="col-md-3 col-xs-12" style={{ marginTop: 10, marginBottom: 10 }}>
                         <div id="chart" style={{ height: 100 + "%", width: 100 + "%" }}></div>
                         <Script
                             id='chartIndex'
@@ -92,17 +92,17 @@ export default function IndexBody() {
                                     },
                                     tooltip: {},
                                     xAxis: {
-                                        data: ['2022/7','2022/8','2022/9','2022/10','2022/11','2022/12']
+                                        data: ['2022/7', '2022/8', '2022/9', '2022/10', '2022/11', '2022/12']
                                     },
                                     yAxis: {},
                                     series: [
                                         {
                                             name: '当月新增指令详解',
                                             type: 'line',
-                                            data: [26,3,0,5,0,1]
+                                            data: [26, 3, 0, 5, 0, 1]
                                         }
                                     ]
-                                },'dark')
+                                }, 'dark')
                             }}
                             dangerouslySetInnerHTML={{
                                 __html: ``,
@@ -124,12 +124,12 @@ export default function IndexBody() {
                 }}
             />
             <h3>友情链接</h3>
-            <div className="col-6 col-sm-12">
+            <div className="col-md-6 col-xs-12">
                 <div style={{ display: 'flex' }} >
                     <a href='https://www.mcnav.net/' target='_blank'>
                         <Card
                             hoverable
-                            style={{ width: 360 }}
+                            style={{ width: 100 + "%" }}
                             cover={
                                 <div style={{ height: 'auto', overflow: 'hidden', backgroundColor: "#1d1d1d" }}>
                                     <img
