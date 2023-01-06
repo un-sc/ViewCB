@@ -104,7 +104,7 @@ keywords: "命令gamerule,更改游戏规则,gamerule用法"
   - `默认值：true`
   - 边界是否发出红色粒子[有待确认]。
 - ShowCoordinates
-  - `默认值：true`
+  - `默认值：false`
   - 是否显示坐标。
 - ShowDeathMessages
   - `默认值：true`
