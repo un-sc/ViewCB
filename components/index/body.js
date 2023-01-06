@@ -1,5 +1,6 @@
 import path from "path"
 import React from 'react';
+import ReactDOM from "react-dom";
 import { Divider, Card } from '@arco-design/web-react';
 const { Meta } = Card;
 import Link from 'next/link';
@@ -8,6 +9,10 @@ import IndexNumList from "./number";
 import NoticeContent from "./notice";
 import CcWarn from "./cc";
 import RandomCard from "./random";
+import date1 from "../child/cmd/json/cmds.json"
+import date2 from "../child/cmd/json/other.json"
+import Script from "next/script";
+
 
 export default function IndexBody() {
     return (
@@ -75,6 +80,34 @@ export default function IndexBody() {
                     </div>
                     <div className="col" style={{ marginTop: 10, marginBottom: 10 }}>
                         <CcWarn />
+                    </div>
+                    <div className="col" style={{ marginTop: 10, marginBottom: 10 }}>
+                        <div id="chart" style={{ height: 100 + "%", width: 100 + "%" }}></div>
+                        <Script
+                            id='chartIndex'
+                            onReady={() => {
+                                echarts.init(document.getElementById('chart')).setOption({
+                                    title: {
+                                        text: '指令新增统计'
+                                    },
+                                    tooltip: {},
+                                    xAxis: {
+                                        data: ['2022/7','2022/8','2022/9','2022/10','2022/11','2022/12']
+                                    },
+                                    yAxis: {},
+                                    series: [
+                                        {
+                                            name: '当月新增指令详解',
+                                            type: 'line',
+                                            data: [26,3,0,5,0,1]
+                                        }
+                                    ]
+                                },'dark')
+                            }}
+                            dangerouslySetInnerHTML={{
+                                __html: ``,
+                            }}
+                        />
                     </div>
                 </div>
             </div>

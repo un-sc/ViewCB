@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link'
 import date1 from "./cmd/json/cmds.json"
-
+import Script from "next/script";
 
 export default function About() {
     return (
@@ -54,6 +54,70 @@ export default function About() {
                     </div> */}
                     <h2>写在最后</h2>
                     <p className='lead'>曾经有一个国王问小牧童永恒有多少秒，牧童说在世界的尽头，一片荒芜的雾霭中伫立着一颗古老的参天大树，它就是生命树。当老树伸懒腰时枝头那只沉睡百年的小鸟醒了过来， 它就是时间鸟。这一次的醒来时间鸟又要开始一次艰辛的旅行，飞行中遇到狂风，它逆风向前，一直飞，一直飞，遇到了闪电、轰雷、暴雨……时间鸟不畏艰辛，还是一直飞，突然一道曙光穿透了厚厚的云层，时间鸟便跟着那道曙光穿越了云层，来到了它夜以继日寻找的钻石山。时间鸟便开始用喙琢磨钻石山的表面直到时间鸟的喙恢复了锋利，它便往归途飞去。时间鸟终于历经艰辛回到了生命树的枝头又沉沉的睡去了，等待着下一个一百年的到来继续琢磨钻石山，直到钻石山被磨平，永恒就过了一秒。​</p>
+                    <div id='map' style={{ height: 400 + 'px', width: 100 + "%" }}></div>
+                    <Script
+                        id='chartIndex'
+                        onReady={() => {
+                            var chartDom = document.getElementById('map');
+                            var myChart = echarts.init(chartDom);
+                            var option;
+
+                            option = {
+                                graphic: {
+                                    elements: [
+                                        {
+                                            type: 'text',
+                                            left: 'center',
+                                            top: 'center',
+                                            style: {
+                                                text: 'ViewCB.net',
+                                                fontSize: 80,
+                                                fontWeight: 'bold',
+                                                lineDash: [0, 200],
+                                                lineDashOffset: 0,
+                                                fill: 'transparent',
+                                                stroke: '#000',
+                                                lineWidth: 1
+                                            },
+                                            keyframeAnimation: {
+                                                duration: 3000,
+                                                loop: true,
+                                                keyframes: [
+                                                    {
+                                                        percent: 0.7,
+                                                        style: {
+                                                            fill: 'transparent',
+                                                            lineDashOffset: 200,
+                                                            lineDash: [200, 0]
+                                                        }
+                                                    },
+                                                    {
+                                                        // Stop for a while.
+                                                        percent: 0.8,
+                                                        style: {
+                                                            fill: 'transparent'
+                                                        }
+                                                    },
+                                                    {
+                                                        percent: 1,
+                                                        style: {
+                                                            fill: 'black'
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            };
+
+                            option && myChart.setOption(option);
+
+                        }}
+                        dangerouslySetInnerHTML={{
+                            __html: ``,
+                        }}
+                    />
                 </div>
             </div>
         </>
