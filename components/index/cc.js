@@ -4,7 +4,7 @@ const CcWarn = () => {
     return (
         <div>
             <Alert
-                style={{ marginBottom: 20 }}
+                style={{ marginBottom: 20, height: 200 }}
                 type='info'
                 title='转载须知'
                 content='本网站内的所有内容均以《知识共享 署名-非商业性使用-相同方式分享 3.0协议》授权。'

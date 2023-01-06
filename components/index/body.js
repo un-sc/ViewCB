@@ -72,16 +72,16 @@ export default function IndexBody() {
             />
             <div className="col-12">
                 <div className='row'>
-                    <div className='col-md-3 col-xs-12' style={{ marginTop: 10, marginBottom: 10 }}>
+                    <div className='col-md-6 col-xs-12 col-lg-6 col-xl-3 col-sm-12' style={{ marginTop: 10, marginBottom: 10, height: 240 }}>
                         <IndexNumList />
                     </div>
-                    <div className='col-md-3 col-xs-12' style={{ marginTop: 10, marginBottom: 10 }}>
+                    <div className='col-md-6 col-xs-12 col-lg-6 col-xl-3 col-sm-12' style={{ marginTop: 10, marginBottom: 10, height: 240 }}>
                         <NoticeContent />
                     </div>
-                    <div className="col-md-3 col-xs-12" style={{ marginTop: 10, marginBottom: 10 }}>
+                    <div className="col-md-6 col-xs-12 col-lg-6 col-xl-3 col-sm-12" style={{ marginTop: 10, marginBottom: 10, height: 240 }}>
                         <CcWarn />
                     </div>
-                    <div className="col-md-3 col-xs-12" style={{ marginTop: 10, marginBottom: 10 }}>
+                    <div className="col-md-6 col-xs-12 col-lg-6 col-xl-3 col-sm-12" style={{ marginTop: 10, marginBottom: 10, height: 240 }}>
                         <div id="chart" style={{ height: 100 + "%", width: 100 + "%" }}></div>
                         <Script
                             id='chartIndex'
@@ -124,34 +124,39 @@ export default function IndexBody() {
                 }}
             />
             <h3>友情链接</h3>
-            <div className="col-md-6 col-xs-12">
-                <div style={{ display: 'flex' }} >
-                    <a href='https://www.mcnav.net/' target='_blank'>
-                        <Card
-                            hoverable
-                            style={{ width: 100 + "%" }}
-                            cover={
-                                <div style={{ height: 'auto', overflow: 'hidden', backgroundColor: "#1d1d1d" }}>
-                                    <img
-                                        style={{ width: '100%' }}
-                                        alt='dessert'
-                                        src='https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/mcnav.gif'
+            <div className="col-12">
+                <div className='row'    >
+                    <div className="col-sm-5 col-lg-3">
+                        <div style={{ display: 'flex' }} >
+                            <a href='https://www.mcnav.net/' target='_blank'>
+                                <Card
+                                    hoverable
+                                    style={{ width: 100 + "%" }}
+                                    cover={
+                                        <div style={{ height: '80px', overflow: 'hidden', backgroundColor: "#1d1d1d" }}>
+                                            <img
+                                                style={{ width: '100%' }}
+                                                alt='dessert'
+                                                src='https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/mcnav.gif'
+                                            />
+                                        </div>
+                                    }
+                                >
+                                    <Meta
+                                        title='MCNav导航'
+                                        description={
+                                            <>
+                                                一个强大好用的Minecraft网址导航站，致力于收录最全面的MC网址和工具，为广大MC爱好者提供便利。
+                                            </>
+                                        }
                                     />
-                                </div>
-                            }
-                        >
-                            <Meta
-                                title='MCNav导航'
-                                description={
-                                    <>
-                                        一个强大好用的Minecraft网址导航站，致力于收录最全面的MC网址和工具，为广大MC爱好者提供便利。
-                                    </>
-                                }
-                            />
-                        </Card>
-                    </a>
+                                </Card>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
     )
 }

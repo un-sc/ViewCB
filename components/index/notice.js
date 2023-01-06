@@ -7,7 +7,7 @@ import "@arco-design/web-react/dist/css/arco.css";
 const NoticeContent = () => {
     return (
         <div style={{ display: 'flex' }} >
-            <Card style={{ width: 360 }}
+            <Card style={{ width: 360, height: 200 }}
                 className='card-custom-hover-style'
                 title='内容编撰中'
                 extra={<Link href="/contribute">More</Link>}
