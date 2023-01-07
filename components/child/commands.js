@@ -25,13 +25,13 @@ export default function Commands() {
 
                     // prettier-ignore
                     const hours = [
-                        'Jul', '', '', '', '', 'Aug', '', '', '', '', 'Sep', '', '', '', '', 'Oct', '', '', '', '', 'Nov', '', '', '', '', 'Dec', '', '', '', '',];
+                        'Jul', '', '', '', '', 'Aug', '', '', '', '', 'Sep', '', '', '', '', 'Oct', '', '', '', '', 'Nov', '', '', '', '', 'Dec', '', '', '', '', 'Jan', '', '', '', '',];
                     // prettier-ignore
                     const days = [
                         'Saturday', 'Friday', 'Thursday', 'Wednesday', 'Tuesday', 'Monday', 'Sunday'
                     ];
                     // prettier-ignore
-                    const data = [[5, 2, 4], [3, 2, 9], [1, 2, 5], [0, 2, 1], [6, 3, 3], [5, 3, 4], [4, 5, 2], [4, 6, 1], [6, 17, 2], [4, 17, 3], [3, 23, 1]]
+                    const data = [[5, 2, 4], [3, 2, 9], [1, 2, 5], [0, 2, 1], [6, 3, 3], [5, 3, 4], [4, 5, 2], [4, 6, 1], [6, 17, 2], [4, 17, 3], [3, 28, 1], [0, 30, 1]]
                         .map(function (item) {
                             return [item[1], item[0], item[2] || '-'];
                         });

@@ -152,6 +152,14 @@
     "day": 11
   },
   {
+    "url": "/commands/mobevent",
+    "title": "/mobevent",
+    "description": "控制或查询生物事件。",
+    "year": 2023,
+    "month": 1,
+    "day": 7
+  },
+  {
     "url": "/commands/msg",
     "title": "/msg",
     "description": "对其他玩家发送私聊消息。此命令等效于/tell和/w。",
