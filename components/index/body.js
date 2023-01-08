@@ -99,7 +99,7 @@ export default function IndexBody() {
                                         {
                                             name: '当月新增指令详解',
                                             type: 'line',
-                                            data: [26, 3, 0, 5, 0, 1, 1]
+                                            data: [26, 3, 0, 5, 0, 1, 3]
                                         }
                                     ]
                                 }, 'dark')

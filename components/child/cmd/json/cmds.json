@@ -80,6 +80,14 @@
     "day": 2
   },
   {
+    "url": "/commands/event",
+    "title": "/event",
+    "description": "对目标实体触发可被允许执行的生物事件。",
+    "year": 2023,
+    "month": 1,
+    "day": 8
+  },
+  {
     "url": "/commands/fill",
     "title": "/fill",
     "description": "该指令可对指定区域进行方块填充。",
@@ -206,6 +214,14 @@
     "year": 2022,
     "month": 10,
     "day": 9
+  },
+  {
+    "url": "/commands/setblock",
+    "title": "/setblock",
+    "description": "在指定的一个坐标放置方块。",
+    "year": 2023,
+    "month": 1,
+    "day": 8
   },
   {
     "url": "/commands/spreadplayers",
