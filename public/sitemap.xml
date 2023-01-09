@@ -79,6 +79,12 @@
       <priority>0.6</priority>
 </url>
 <url>
+      <loc>https://viewcb.net/commands/event</loc>
+      <lastmod>2023-01-08</lastmod>
+      <changefreq>event</changefreq>
+      <priority>0.6</priority>
+</url>
+<url>
       <loc>https://viewcb.net/commands/fill</loc>
       <lastmod>2022-07-11</lastmod>
       <changefreq>monthly</changefreq>
@@ -133,6 +139,12 @@
       <priority>0.6</priority>
 </url>
 <url>
+      <loc>https://viewcb.net/commands/mobevent</loc>
+      <lastmod>2023-01-07</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+</url>
+<url>
       <loc>https://viewcb.net/commands/msg</loc>
       <lastmod>2022-07-17</lastmod>
       <changefreq>monthly</changefreq>
@@ -165,6 +177,12 @@
 <url>
       <loc>https://viewcb.net/commands/scoreboard</loc>
       <lastmod>2022-10-09</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+</url>
+<url>
+      <loc>https://viewcb.net/commands/setblock</loc>
+      <lastmod>2023-01-08</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
 </url>

@@ -1,5 +1,9 @@
-import { Descriptions } from '@arco-design/web-react';
+import React, { useState } from 'react';
+import { Descriptions, } from '@arco-design/web-react';
+import { Typography } from 'antd';
 import '@arco-design/web-react/dist/css/arco.css';
+
+const { Paragraph } = Typography;
 
 const data = [
     {
@@ -18,10 +22,15 @@ const data = [
         label: 'Residence',
         value: 'Beijing',
     },
-
     {
         label: 'email',
         value: '2779799659@qq.com',
+    },
+    {
+        label: 'ViewCB交流群',
+        value: (
+            <a target="_blank" href='https://jq.qq.com/?_wv=1027&k=yYM18Myn'><Paragraph style={{ fontWeight: 400, color: "#5757ff" }} copyable >718087649</Paragraph></a>
+        )
     },
 ];
 

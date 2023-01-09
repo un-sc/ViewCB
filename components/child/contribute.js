@@ -1,12 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from "react-dom";
 import Head from 'next/head';
 import Link from 'next/link'
 import { Divider } from '@arco-design/web-react';
 import Information from './infList';
 import People from './people';
+import { Segmented, QRCode, Button, Col, Row, Typography } from 'antd';
+import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
+
+const { Paragraph } = Typography;
 
 export default function Contribute() {
+    const [level, setLevel] = useState('M');
+    const [size, setSize] = useState(160);
+    const increase = () => {
+        setSize((prevSize) => {
+            const newSize = prevSize + 10;
+            if (newSize > 300) {
+                return 300;
+            }
+            return newSize;
+        });
+    };
+    const decline = () => {
+        setSize((prevSize) => {
+            const newSize = prevSize - 10;
+            if (newSize < 48) {
+                return 48;
+            }
+            return newSize;
+        });
+    };
     return (
         <>
             <Head>
@@ -28,6 +52,46 @@ export default function Contribute() {
                     <p className='lead'>您可以尝试为ViewCB自行编写markdown文件，提供不一样的内容风格。</p>
                     <h3>联系方式</h3>
                     <Information />
+                    <Row gutter={[24, 16]}>
+                        <Col>
+                            <QRCode
+                                style={{
+                                    marginBottom: 16,
+                                }}
+                                errorLevel={level}
+                                value={"https://jq.qq.com/?_wv=1027&k=yYM18Myn"}
+                                icon='https://unsc.oss-cn-hongkong.aliyuncs.com/ViewCB/Images/ViewTheViewCB.PNG'
+                                size={size}
+                                iconSize={size / 4}
+                            />
+                        </Col>
+                        <Col>
+                            <Row gutter={[24, 16]}>
+                                <Col><Button.Group
+                                    style={{
+                                        marginBottom: 16,
+                                    }}
+                                >
+                                    <Button onClick={decline} disabled={size <= 48} icon={<MinusOutlined />}>
+                                        Smaller
+                                    </Button>
+                                    <Button onClick={increase} disabled={size >= 300} icon={<PlusOutlined />}>
+                                        Larger
+                                    </Button>
+                                </Button.Group></Col>
+                            </Row>
+                            <Row gutter={[24, 16]}>
+                                <Col>
+                                    <Segmented options={['L', 'M', 'Q', 'H']} value={level} onChange={setLevel} />
+                                </Col>
+                            </Row>
+                            <Row style={{ marginTop: 20 }}>
+                                <Col><p className='lead'>QQ群号：</p></Col>
+                                <Col><a target="_blank" href='https://jq.qq.com/?_wv=1027&k=yYM18Myn'><Paragraph style={{ fontSize: "1.25rem", fontWeight: 300, color: "#5757ff" }} copyable >718087649</Paragraph></a></Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                    <p>PS：扫描二维码加入ViewCB的QQ群，二维码越复杂，识别准确率越高，但是不适应小图片或分辨率低的图片(会看不清楚)，您可以自己调整二维码复杂率和图片大小。</p>
                     <Divider
                         style={{
                             borderBottomWidth: 2,
