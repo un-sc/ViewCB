@@ -42,7 +42,7 @@ export default function About() {
                 <div className='col-12'>
                     <figure className="figure">
 
-                        <img id='bgimg' src="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/viewcb-logo-light.png" className="figure-img img-fluid rounded" alt="ViewCB的logo" />
+                        <img id='bgimg' src="https://public.viewcb.net/images/viewcb-logo-light.png" className="figure-img img-fluid rounded" alt="ViewCB的logo" />
                         <figcaption className="figure-caption">Copyright © 2022 ViewCB. All rights reserved.</figcaption>
                     </figure>
                 </div>
@@ -65,7 +65,7 @@ export default function About() {
                                 }}
                                 errorLevel={level}
                                 value={"https://jq.qq.com/?_wv=1027&k=yYM18Myn"}
-                                icon='https://unsc.oss-cn-hongkong.aliyuncs.com/ViewCB/Images/ViewTheViewCB.PNG'
+                                icon='https://public.viewcb.net/images/ViewTheViewCB.PNG'
                                 size={size}
                                 iconSize={size / 4}
                             />

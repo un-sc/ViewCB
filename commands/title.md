@@ -40,7 +40,7 @@ title指令可以用于在玩家屏幕上显示文字。
 2. subtitle：副标题
 3. actionbar：物品栏上方的标题
 
-![/title命令显示位置示意图](https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/title-1.PNG "/title命令显示位置示意图")
+![/title命令显示位置示意图](https://public.viewcb.net/images/title-1.PNG "/title命令显示位置示意图")
 
 **「显示文本」**：显示文本用来指定你要在玩家屏幕上显示的内容。
 

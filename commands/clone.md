@@ -28,7 +28,7 @@ keywords: "clone指令,复制方块,clone用法"
 
 **<目标位置坐标>**：目标位置坐标用来选取一个点，来确定在何处加载复制内容。可以填写[绝对坐标、相对坐标、偏移坐标](/commands/坐标 "坐标介绍")。
 
-![Clone命令坐标示意图](https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/clone-1.svg?versionId=CAEQNhiBgMCA9aXGjxgiIDE0MTIxMTNiYjUyYzQyYWM5MzIyNTcyNzJhMWQ2Yzc1 "Clone命令坐标示意图")
+![Clone命令坐标示意图](https://public.viewcb.net/images/clone-1.svg "Clone命令坐标示意图")
 
 **「填充区域的操作模式」**：指以什么样的方式进行复制，有以下三种方式：
 

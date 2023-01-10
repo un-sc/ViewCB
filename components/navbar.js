@@ -33,7 +33,7 @@ export default function Navbar() {
             <div className="container-fluid">
                 <Link href="/">
                     <a className="navbar-brand">
-                        <img src="https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/viewcb-logo-light.png" height={60 + "px"} />
+                        <img src="https://public.viewcb.net/images/viewcb-logo-light.png" height={60 + "px"} />
                     </a>
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

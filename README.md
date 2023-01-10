@@ -1,6 +1,6 @@
 # ViewCB
 
-[![ViewCB-Logo](https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/viewcb-logo-light.png "ViewCB-Logo")](https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/viewcb-logo-light.png "ViewCB-Logo")
+[![ViewCB-Logo](https://public.viewcb.net/images/viewcb-logo-light.png "ViewCB-Logo")](https://public.viewcb.net/images/viewcb-logo-light.png "ViewCB-Logo")
 
 ## 建设目的和初衷
 
@@ -22,7 +22,7 @@ ViewCB始终**坚持尊重原创的态度**，对于内容的引用都做出了�
 
 ViewCB的QQ交流群：[718087649](https://jq.qq.com/?_wv=1027&k=yYM18Myn "718087649")
 
-[![ViewCB的QQ交流群二维码](https://unsc.oss-cn-hongkong.aliyuncs.com/ViewCB/Images/QQGroupQRcode2.png "ViewCB的QQ交流群二维码")](https://unsc.oss-cn-hongkong.aliyuncs.com/ViewCB/Images/QQGroupQRcode2.png "ViewCB的QQ交流群二维码")
+[![ViewCB的QQ交流群二维码](https://public.viewcb.net/images/QQGroupQRcode2.png "ViewCB的QQ交流群二维码")](https://public.viewcb.net/images/QQGroupQRcode2.png "ViewCB的QQ交流群二维码")
 
 ## 如何提出修改意见或反馈错误？
 

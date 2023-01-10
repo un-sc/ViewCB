@@ -26,7 +26,7 @@ keywords: "fill指令,我的世界填充指令,方块填充,fill用法"
 
 **<终点坐标>**：终点坐标用来选取填充目标区域的终点坐标。可以填写[绝对坐标、相对坐标、偏移坐标](/commands/坐标 "坐标介绍")。例如`~ ~ ~`代表当前位置，或者是`100 130 200`代表世界的坐标。
 
-![/fill命令坐标示意图](https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/fill-1.svg "/fill命令坐标示意图")
+![/fill命令坐标示意图](https://public.viewcb.net/images/fill-1.svg "/fill命令坐标示意图")
 
 **<方块名>**：该项用于指定用什么方块对目标区域进行填充，需填写方块的名称。
 

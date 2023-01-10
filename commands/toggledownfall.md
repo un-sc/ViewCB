@@ -26,4 +26,4 @@ keywords: "toggledownfall指令,游戏天气,toggledownfall用法"
 
 切换顺序如下图所示
 
-![当前天气晴朗会转换为雨天或雷暴，若天气为雨天或雷暴会转换为晴天](https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/toggledownfall-1.png "当前天气晴朗会转换为雨天或雷暴，若天气为雨天或雷暴会转换为晴天")
+![当前天气晴朗会转换为雨天或雷暴，若天气为雨天或雷暴会转换为晴天](https://public.viewcb.net/images/toggledownfall-1.png "当前天气晴朗会转换为雨天或雷暴，若天气为雨天或雷暴会转换为晴天")

@@ -46,7 +46,7 @@ export default function Post({ postData }) {
                         }}
                         errorLevel='M'
                         value="https://jq.qq.com/?_wv=1027&k=yYM18Myn"
-                        icon='https://unsc.oss-cn-hongkong.aliyuncs.com/ViewCB/Images/V.JPEG'
+                        icon='https://public.viewcb.net/images/V.JPEG'
                         size={160}
                         iconSize={40}
                     />
@@ -118,7 +118,7 @@ export default function Post({ postData }) {
                             }}
                             errorLevel={level}
                             value={"https://viewcb.net/commands/" + postData.id}
-                            icon='https://unsc.oss-cn-hongkong.aliyuncs.com/ViewCB/Images/ViewTheViewCB.PNG'
+                            icon='https://public.viewcb.net/images/ViewTheViewCB.PNG'
                             size={size}
                             iconSize={size / 4}
                         />
@@ -169,7 +169,7 @@ export default function Post({ postData }) {
                         }}
                         errorLevel='M'
                         value="https://jq.qq.com/?_wv=1027&k=yYM18Myn"
-                        icon='https://unsc.oss-cn-hongkong.aliyuncs.com/ViewCB/Images/V.JPEG'
+                        icon='https://public.viewcb.net/images/V.JPEG'
                         size={160}
                         iconSize={40}
                     />

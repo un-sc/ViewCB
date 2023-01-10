@@ -137,7 +137,7 @@ export default function IndexBody() {
                                             <img
                                                 style={{ width: '100%' }}
                                                 alt='dessert'
-                                                src='https://unsc.oss-accelerate.aliyuncs.com/ViewCB/Images/mcnav.gif'
+                                                src='https://public.viewcb.net/images/mcnav.gif'
                                             />
                                         </div>
                                     }
