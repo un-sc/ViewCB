@@ -8,7 +8,7 @@ import Head from 'next/head';
 import IndexNumList from "./number";
 import NoticeContent from "./notice";
 import CcWarn from "./cc";
-import RandomCard from "./random";
+import Recommend from "./random";
 import date1 from "../child/cmd/json/cmds.json"
 import date2 from "../child/cmd/json/other.json"
 import Script from "next/script";
@@ -116,8 +116,8 @@ export default function IndexBody() {
                     borderBottomStyle: 'dashed',
                 }}
             />
-            <h3>随机内容推荐</h3>
-            <RandomCard />
+            <h3>内容推荐</h3>
+            <Recommend />
             <Divider
                 style={{
                     borderBottomStyle: 'dashed',

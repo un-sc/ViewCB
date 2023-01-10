@@ -10,7 +10,7 @@ export default function Footer() {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
                         <a className="nav-link active" id="deleteColor" style={{ color: "white" }}>
-                            Copyright © 2022-2023 <Link href='/'>ViewCB</Link>. All rights reserved.
+                            Copyright © 2022-2023 ViewCB. All rights reserved.
                         </a>
                     </li>
                     <li className="nav-item">
