@@ -128,7 +128,7 @@ export default function IndexBody() {
                 <div className='row'    >
                     <div className="col-sm-5 col-lg-3">
                         <div style={{ display: 'flex' }} >
-                            <a href='https://www.mcnav.net/' target='_blank'>
+                            <a href='https://www.mcnav.net/sites/1178.html/' target='_blank'>
                                 <Card
                                     hoverable
                                     style={{ width: 100 + "%" }}
