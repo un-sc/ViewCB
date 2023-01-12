@@ -154,6 +154,62 @@ export default function IndexBody() {
                             </a>
                         </div>
                     </div>
+                    <div className="col-sm-5 col-lg-3">
+                        <div style={{ display: 'flex' }} >
+                            <a href='https://www.188dh.cn' target='_blank'>
+                                <Card
+                                    hoverable
+                                    style={{ width: 100 + "%" }}
+                                    cover={
+                                        <div style={{ height: '80px', overflow: 'hidden', backgroundColor: "#1d1d1d" }}>
+                                            <img
+                                                style={{ width: '100%' }}
+                                                alt='dessert'
+                                                src='https://www.188dh.cn/logo.png'
+                                            />
+                                        </div>
+                                    }
+                                >
+                                    <Meta
+                                        title='188收录网'
+                                        description={
+                                            <>
+                                                188收录网,优质网址导航目录平台,为您提供免费网站收录提交,网站目录提交入口,免费自动秒收录网址,提供自动收录网站。
+                                            </>
+                                        }
+                                    />
+                                </Card>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-sm-5 col-lg-3">
+                        <div style={{ display: 'flex' }} >
+                            <a href='https://ppjbk.cn/' target='_blank'>
+                                <Card
+                                    hoverable
+                                    style={{ width: 100 + "%" }}
+                                    cover={
+                                        <div style={{ height: '80px', overflow: 'hidden', backgroundColor: "#1d1d1d" }}>
+                                            <img
+                                                style={{ width: '100%' }}
+                                                alt='dessert'
+                                                src='https://ppjbk.cn/assets/images/logo.png'
+                                            />
+                                        </div>
+                                    }
+                                >
+                                    <Meta
+                                        title='PPJ收录网'
+                                        description={
+                                            <>
+                                                PPJ收录导航,PPJ收录网,站长收录平台，全网大型收录平台，快速上排名，快速收录，站点权重提升，网站收录提交,网站收录工具
+                                            </>
+                                        }
+                                    />
+                                </Card>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
