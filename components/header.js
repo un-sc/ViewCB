@@ -5,6 +5,7 @@ export default function Header() {
         <Head>
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
             <meta name="renderer" content="webkit" />
+            <meta content="always" name="referrer" />
             <link rel="icon" href="https://public.viewcb.net/images/V.JPEG" type="image/ico" />
             <link rel="shortcut icon" href="https://public.viewcb.net/images/V.JPEG" type="image/ico" />
             <meta name="author" content="ViewCB" />
