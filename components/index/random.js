@@ -6,6 +6,11 @@ import Link from 'next/link';
 import { Card, Avatar, Typography, Space, Button } from '@arco-design/web-react';
 import { IconThumbUp, IconShareInternal, IconMore } from '@arco-design/web-react/icon';
 import "@arco-design/web-react/dist/css/arco.css";
+import Image from 'next/image'
+import img1 from '../../public/坐标-1.png'
+import img2 from '../../public/toggledownfall-1.png'
+import img3 from '../../public/clone-1.svg'
+
 const { Meta } = Card;
 
 export default function Recommend() {
@@ -18,11 +23,12 @@ export default function Recommend() {
                 title='2022/7/15'
                 extra={<Link href='/commands/坐标'>More</Link>}
                 cover={
-                    <div style={{ height: 204, overflow: 'hidden' }}>
-                        <img
-                            style={{ width: '100%', transform: 'translateY(-20px)' }}
-                            alt='dessert'
-                            src='https://public.viewcb.net/images/%E5%9D%90%E6%A0%87-1.png'
+                    <div style={{ height: 104, overflow: 'hidden' }}>
+                        <Image
+                            quality={30}
+                            style={{ width: '100%', transform: 'translateY(-120px)' }}
+                            alt='我的世界坐标'
+                            src={img1}
                         />
                     </div>
                 }
@@ -48,11 +54,12 @@ export default function Recommend() {
                 extra={<Link href='/commands/toggledownfall'>More</Link>}
                 title='2022/7/18'
                 cover={
-                    <div style={{ height: 204, overflow: 'hidden' }}>
-                        <img
-                            style={{ width: '100%', transform: 'translateY(50px)' }}
-                            alt='dessert'
-                            src='https://public.viewcb.net/images/toggledownfall-1.png'
+                    <div style={{ height: 104, overflow: 'hidden' }}>
+                        <Image
+                            quality={30}
+                            style={{ width: '100%' }}
+                            alt='我的世界命令toggledownfall'
+                            src={img2}
                         />
                     </div>
                 }
@@ -78,11 +85,12 @@ export default function Recommend() {
                 title='2022/7/11'
                 extra={<Link href='/commands/clone'>More</Link>}
                 cover={
-                    <div style={{ height: 204, overflow: 'hidden' }}>
-                        <img
-                            style={{ width: '100%', transform: 'translateY(50px)' }}
-                            alt='dessert'
-                            src='https://public.viewcb.net/images/clone-1.svg'
+                    <div style={{ height: 104, overflow: 'hidden' }}>
+                        <Image
+                            quality={30}
+                            style={{ width: '100%' }}
+                            alt='我的世界命令clone'
+                            src={img3}
                         />
                     </div>
                 }
