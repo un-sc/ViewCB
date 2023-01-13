@@ -69,7 +69,7 @@ export default function Navbar() {
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><a className="dropdown-item" href="https://www.baidu.com/s?wd=ViewCB" target="_blank">百度一下本站</a></li>
-                                    <li><a className="dropdown-item" href="https://www.wenjuan.com/s/UZBZJv18XE3/" target="_blank">踢出反馈/建议</a></li>
+                                    <li><a className="dropdown-item" href="https://www.wenjuan.com/s/UZBZJv18XE3/" target="_blank">提出反馈/建议</a></li>
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><a className="dropdown-item" href="https://jq.qq.com/?_wv=1027&k=yYM18Myn" target="_blank">加入QQ群</a></li>
                                 </ul>
