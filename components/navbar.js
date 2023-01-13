@@ -7,22 +7,10 @@ const switchTheme = (e) => {
         e.target.classList.remove("eiconsunstroke");
         e.target.classList.add("eiconmoonstroke");
         e.target.classList.add(clickedClass);
-        // <Script
-        //     id="show-banner"
-        //     dangerouslySetInnerHTML={{
-        //         __html: `localStorage.setItem("theme", "dark");`,
-        //     }}
-        // />
     } else if (e.target.classList == "eicon eiconmoonstroke clicked") {
         e.target.classList.remove(clickedClass);
         e.target.classList.remove("eiconmoonstroke");
         e.target.classList.add("eiconsunstroke");
-        // <Script
-        //     id="show-banner"
-        //     dangerouslySetInnerHTML={{
-        //         __html: `localStorage.setItem("theme", "light");`,
-        //     }}
-        // />
     }
 };
 
@@ -79,9 +67,62 @@ export default function Navbar() {
                         <button className="btn btn-outline-success" type="submit">Search</button>
                     </form> */}
                 </div>
-                {/* <span className="navbar-text">
+                <span className="navbar-text">
                     <span id='themebtn' onClick={function (e) { switchTheme(e) }} type="button" style={{ fontSize: "xx-large", marginRight: 10 }} className="eicon eiconsunstroke" />
-                </span> */}
+                    <Script
+                        id="show-banner"
+                        onReady={() => {
+                            var sw = document.body;
+                            var bt = document.getElementById('themebtn')
+                            //window.onload = function () {
+                            let getLocalFirst = localStorage.hasOwnProperty("theme")
+                            let get = localStorage["theme"]
+                            if (getLocalFirst == false) {
+                                sw.setAttribute("data-bs-theme", "light")
+                                sw.removeAttribute('arco-theme');
+                                localStorage.theme = "light";
+                                console.log("无法读取本地主题数据，您可能是第一次浏览本网站，自动为您切换本地网站主题为：明亮模式")
+                            } else {
+                                if (get == "light") {
+                                    sw.setAttribute("data-bs-theme", "light")
+                                    sw.removeAttribute('arco-theme');
+                                    console.log("读取到本地网站主题数据为：明亮模式")
+                                } else if (get == "dark") {
+                                    bt.className = "eicon eiconmoonstroke clicked"
+                                    sw.setAttribute("data-bs-theme", "dark")
+                                    sw.setAttribute('arco-theme', 'dark');
+                                    console.log("读取到本地网站主题数据为：暗黑模式")
+                                }
+                            }
+                            var options = {
+                                attributes: true,//观察node对象的属性
+                                attributeFilter: ['class']//只观察class属性
+                            }
+                            var mb = new MutationObserver(function (mutationRecord, observer) {
+                                let read = mutationRecord[0].target.className
+                                console.log(read)
+                                setTimeout(() => {
+                                    if (read == "eicon eiconsunstroke") {
+                                        sw.setAttribute("data-bs-theme", "light")
+                                        sw.removeAttribute('arco-theme');
+                                        localStorage.theme = "light";
+                                        console.log("切换明亮模式")
+                                    } else if (read == "eicon eiconmoonstroke clicked") {
+                                        sw.setAttribute("data-bs-theme", "dark")
+                                        sw.setAttribute('arco-theme', 'dark');
+                                        localStorage.theme = "dark";
+                                        console.log("切换暗黑模式")
+                                    }
+                                }, 100);
+                            })
+                            mb.observe(bt, options)
+                            //}
+                        }}
+                        dangerouslySetInnerHTML={{
+                            __html: ``,
+                        }}
+                    />
+                </span>
             </div>
         </nav>
     )

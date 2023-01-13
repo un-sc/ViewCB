@@ -41,8 +41,7 @@ export default function About() {
             <div className='row gy-5'>
                 <div className='col-12'>
                     <figure className="figure">
-
-                        <img id='bgimg' src="https://public.viewcb.net/images/viewcb-logo-light.png" className="figure-img img-fluid rounded" alt="ViewCB的logo" />
+                        <img src="https://public.viewcb.net/images/viewcb-logo-light.png" className="figure-img img-fluid rounded" alt="ViewCB的logo" />
                         <figcaption className="figure-caption">Copyright © 2022 ViewCB. All rights reserved.</figcaption>
                     </figure>
                 </div>
