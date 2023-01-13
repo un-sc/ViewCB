@@ -61,6 +61,20 @@ export default function Navbar() {
                                 </a>
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <li className="nav-item dropdown">
+                                <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: "white" }}>
+                                    <span className="eicon eiconreadmore" />
+                                    <b>更多</b>
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <li><a className="dropdown-item" href="https://www.baidu.com/s?wd=ViewCB" target="_blank">百度一下本站</a></li>
+                                    <li><a className="dropdown-item" href="https://www.wenjuan.com/s/UZBZJv18XE3/" target="_blank">踢出反馈/建议</a></li>
+                                    <li><hr className="dropdown-divider" /></li>
+                                    <li><a className="dropdown-item" href="https://jq.qq.com/?_wv=1027&k=yYM18Myn" target="_blank">加入QQ群</a></li>
+                                </ul>
+                            </li>
+                        </li>
                     </ul>
                     {/* <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
