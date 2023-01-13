@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Script from "next/script"
 
 const switchTheme = (e) => {
     let clickedClass = "clicked";
@@ -17,7 +16,6 @@ const switchTheme = (e) => {
 export default function Navbar() {
     return (
         <nav className="navbar sticky-top navbar-expand-lg" style={{ backgroundColor: "rgb(112.520718,44.062154,249.437846)" }}>
-
             <div className="container-fluid">
                 <Link href="/">
                     <a className="navbar-brand">
@@ -61,19 +59,17 @@ export default function Navbar() {
                                 </a>
                             </Link>
                         </li>
-                        <li className="nav-item">
-                            <li className="nav-item dropdown">
-                                <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: "white" }}>
-                                    <span className="eicon eiconreadmore" />
-                                    <b>更多</b>
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="https://www.baidu.com/s?wd=ViewCB" target="_blank">百度一下本站</a></li>
-                                    <li><a className="dropdown-item" href="https://www.wenjuan.com/s/UZBZJv18XE3/" target="_blank">提出反馈/建议</a></li>
-                                    <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="https://jq.qq.com/?_wv=1027&k=yYM18Myn" target="_blank">加入QQ群</a></li>
-                                </ul>
-                            </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: "white" }}>
+                                <span className="eicon eiconreadmore" />
+                                <b>更多</b>
+                            </a>
+                            <ul className="dropdown-menu">
+                                <li><a className="dropdown-item" href="https://www.baidu.com/s?wd=ViewCB" target="_blank">百度一下本站</a></li>
+                                <li><a className="dropdown-item" href="https://www.wenjuan.com/s/UZBZJv18XE3/" target="_blank">提出反馈/建议</a></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><a className="dropdown-item" href="https://jq.qq.com/?_wv=1027&k=yYM18Myn" target="_blank">加入QQ群</a></li>
+                            </ul>
                         </li>
                     </ul>
                     {/* <form className="d-flex" role="search">
@@ -83,59 +79,6 @@ export default function Navbar() {
                 </div>
                 <span className="navbar-text">
                     <span id='themebtn' onClick={function (e) { switchTheme(e) }} type="button" style={{ fontSize: "xx-large", marginRight: 10 }} className="eicon eiconsunstroke" />
-                    <Script
-                        id="show-banner"
-                        onReady={() => {
-                            var sw = document.body;
-                            var bt = document.getElementById('themebtn')
-                            //window.onload = function () {
-                            let getLocalFirst = localStorage.hasOwnProperty("theme")
-                            let get = localStorage["theme"]
-                            if (getLocalFirst == false) {
-                                sw.setAttribute("data-bs-theme", "light")
-                                sw.removeAttribute('arco-theme');
-                                localStorage.theme = "light";
-                                console.log("无法读取本地主题数据，您可能是第一次浏览本网站，自动为您切换本地网站主题为：明亮模式")
-                            } else {
-                                if (get == "light") {
-                                    sw.setAttribute("data-bs-theme", "light")
-                                    sw.removeAttribute('arco-theme');
-                                    console.log("读取到本地网站主题数据为：明亮模式")
-                                } else if (get == "dark") {
-                                    bt.className = "eicon eiconmoonstroke clicked"
-                                    sw.setAttribute("data-bs-theme", "dark")
-                                    sw.setAttribute('arco-theme', 'dark');
-                                    console.log("读取到本地网站主题数据为：暗黑模式")
-                                }
-                            }
-                            var options = {
-                                attributes: true,//观察node对象的属性
-                                attributeFilter: ['class']//只观察class属性
-                            }
-                            var mb = new MutationObserver(function (mutationRecord, observer) {
-                                let read = mutationRecord[0].target.className
-                                console.log(read)
-                                setTimeout(() => {
-                                    if (read == "eicon eiconsunstroke") {
-                                        sw.setAttribute("data-bs-theme", "light")
-                                        sw.removeAttribute('arco-theme');
-                                        localStorage.theme = "light";
-                                        console.log("切换明亮模式")
-                                    } else if (read == "eicon eiconmoonstroke clicked") {
-                                        sw.setAttribute("data-bs-theme", "dark")
-                                        sw.setAttribute('arco-theme', 'dark');
-                                        localStorage.theme = "dark";
-                                        console.log("切换暗黑模式")
-                                    }
-                                }, 100);
-                            })
-                            mb.observe(bt, options)
-                            //}
-                        }}
-                        dangerouslySetInnerHTML={{
-                            __html: ``,
-                        }}
-                    />
                 </span>
             </div>
         </nav>
