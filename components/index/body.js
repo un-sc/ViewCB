@@ -125,8 +125,8 @@ export default function IndexBody() {
             />
             <h3>友情链接</h3>
             <div className="col-12">
-                <div className='row'    >
-                    <div className="col-sm-5 col-lg-3">
+                <div className='row'>
+                    <div className="col-sm-5 col-lg-3" style={{ marginTop: 10 }}>
                         <div style={{ display: 'flex' }} >
                             <a href='https://www.mcnav.net/sites/1178.html/' target='_blank'>
                                 <Card
@@ -154,14 +154,14 @@ export default function IndexBody() {
                             </a>
                         </div>
                     </div>
-                    <div className="col-sm-5 col-lg-3">
+                    <div className="col-sm-5 col-lg-3" style={{ marginTop: 10 }}>
                         <div style={{ display: 'flex' }} >
                             <a href='https://www.188dh.cn' target='_blank'>
                                 <Card
                                     hoverable
                                     style={{ width: 100 + "%" }}
                                     cover={
-                                        <div style={{ height: '80px', overflow: 'hidden', backgroundColor: "#1d1d1d" }}>
+                                        <div style={{ height: '80px', overflow: 'hidden'}}>
                                             <img
                                                 style={{ width: '100%' }}
                                                 alt='dessert'
@@ -182,14 +182,14 @@ export default function IndexBody() {
                             </a>
                         </div>
                     </div>
-                    <div className="col-sm-5 col-lg-3">
+                    <div className="col-sm-5 col-lg-3" style={{ marginTop: 10 }}>
                         <div style={{ display: 'flex' }} >
                             <a href='https://ppjbk.cn/' target='_blank'>
                                 <Card
                                     hoverable
                                     style={{ width: 100 + "%" }}
                                     cover={
-                                        <div style={{ height: '80px', overflow: 'hidden', backgroundColor: "#1d1d1d" }}>
+                                        <div style={{ height: '80px', overflow: 'hidden', backgroundColor: "white" }}>
                                             <img
                                                 style={{ width: '100%' }}
                                                 alt='dessert'
