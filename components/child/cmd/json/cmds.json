@@ -40,6 +40,14 @@
     "day": 11
   },
   {
+    "url": "/commands/damage",
+    "title": "/damage",
+    "description": "对实体造成伤害。",
+    "year": 2023,
+    "month": 1,
+    "day": 13
+  },
+  {
     "url": "/commands/daylock",
     "title": "/daylock",
     "description": "是否锁定昼夜更替，等效于/alwaysday。",
