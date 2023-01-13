@@ -73,6 +73,18 @@ export default function JavaScriptList() {
                     getElm.innerText = `本站已累计运行：${str} 天`
                 }}
             />
+            <Script
+                id="show-banner"
+                onReady={() => {
+                    var _hmt = _hmt || [];
+                    (function () {
+                        var hm = document.createElement("script");
+                        hm.src = "https://hm.baidu.com/hm.js?520c23c3a7d21572e006e4e509a158cf";
+                        var s = document.getElementsByTagName("script")[0];
+                        s.parentNode.insertBefore(hm, s);
+                    })();
+                }}
+            />
         </>
     )
 }
