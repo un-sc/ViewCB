@@ -4,6 +4,7 @@ import dayjs from 'dayjs'
 export default function JavaScriptList() {
     return (
         <>
+            <Script src="https://hm.baidu.com/hm.js?520c23c3a7d21572e006e4e509a158cf" strategy="beforeInteractive" />
             <Script src="https://public.viewcb.net/javascript/count.js" />
             <Script src="https://www.googletagmanager.com/gtag/js?id=G-70RMB2VDTC"></Script>
             <Script src='https://public.viewcb.net/javascript/google.js'></Script>
@@ -12,7 +13,7 @@ export default function JavaScriptList() {
             {/* <Script src="https://public.viewcb.net/javascript/customParseFormat.js" /> */}
             <Script src="https://public.viewcb.net/javascript/echarts.min.js" strategy="beforeInteractive" />
             <Script
-                id="show-banner"
+                id="themeScript"
                 onReady={() => {
                     var sw = document.body;
                     var bt = document.getElementById('themebtn')
@@ -64,25 +65,13 @@ export default function JavaScriptList() {
                 }}
             />
             <Script
-                id="show-banner"
+                id="cumulativeRunning"
                 onReady={() => {
                     const cumulative = dayjs(dayjs(new Date())).diff('2022-07-13', 'day')
                     let str = cumulative.toString()
                     let getElm = document.getElementById("time")
                     console.log(str)
                     getElm.innerText = `本站已累计运行：${str} 天`
-                }}
-            />
-            <Script
-                id="show-banner"
-                onReady={() => {
-                    var _hmt = _hmt || [];
-                    (function () {
-                        var hm = document.createElement("script");
-                        hm.src = "https://hm.baidu.com/hm.js?520c23c3a7d21572e006e4e509a158cf";
-                        var s = document.getElementsByTagName("script")[0];
-                        s.parentNode.insertBefore(hm, s);
-                    })();
                 }}
             />
         </>
