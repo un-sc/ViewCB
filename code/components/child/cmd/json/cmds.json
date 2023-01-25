@@ -1,0 +1,314 @@
+[
+  {
+    "url": "/commands/help",
+    "title": "/?",
+    "description": "获取我的世界对于指令的帮助信息。此命令等效于/help。",
+    "year": 2022,
+    "month": 10,
+    "day": 11
+  },
+  {
+    "url": "/commands/alwaysday",
+    "title": "/alwaysday",
+    "description": "是否锁定昼夜更替，等效于/daylock。",
+    "year": 2022,
+    "month": 7,
+    "day": 11
+  },
+  {
+    "url": "/commands/clear",
+    "title": "/clear",
+    "description": "清除玩家物品栏中的物品（无法对除玩家以外实体生效）。",
+    "year": 2022,
+    "month": 7,
+    "day": 11
+  },
+  {
+    "url": "/commands/clearspawnpoint",
+    "title": "/clearspawnpoint",
+    "description": "清除玩家的重生点。",
+    "year": 2022,
+    "month": 7,
+    "day": 18
+  },
+  {
+    "url": "/commands/clone",
+    "title": "/clone",
+    "description": "用于对指定区域内的方块进行复制到另一区域这一操作。",
+    "year": 2022,
+    "month": 7,
+    "day": 11
+  },
+  {
+    "url": "/commands/damage",
+    "title": "/damage",
+    "description": "对实体造成伤害。",
+    "year": 2023,
+    "month": 1,
+    "day": 13
+  },
+  {
+    "url": "/commands/daylock",
+    "title": "/daylock",
+    "description": "是否锁定昼夜更替，等效于/alwaysday。",
+    "year": 2022,
+    "month": 7,
+    "day": 15
+  },
+  {
+    "url": "/commands/deop",
+    "title": "/deop",
+    "description": "撤销玩家管理员权限。",
+    "year": 2022,
+    "month": 7,
+    "day": 15
+  },
+  {
+    "url": "/commands/difficulty",
+    "title": "/difficulty",
+    "description": "设置游戏的难度。",
+    "year": 2022,
+    "month": 7,
+    "day": 18
+  },
+  {
+    "url": "/commands/effect",
+    "title": "/effect",
+    "description": "给予玩家指定的效果buff。",
+    "year": 2022,
+    "month": 12,
+    "day": 23
+  },
+  {
+    "url": "/commands/enchant",
+    "title": "/enchant",
+    "description": "给实体手持物品进行附魔。",
+    "year": 2022,
+    "month": 8,
+    "day": 2
+  },
+  {
+    "url": "/commands/event",
+    "title": "/event",
+    "description": "对目标实体触发可被允许执行的生物事件。",
+    "year": 2023,
+    "month": 1,
+    "day": 8
+  },
+  {
+    "url": "/commands/fill",
+    "title": "/fill",
+    "description": "该指令可对指定区域进行方块填充。",
+    "year": 2022,
+    "month": 7,
+    "day": 11
+  },
+  {
+    "url": "/commands/gamemode",
+    "title": "/gamemode",
+    "description": "用于更改玩家的游戏模式。",
+    "year": 2022,
+    "month": 7,
+    "day": 13
+  },
+  {
+    "url": "/commands/gamerule",
+    "title": "/gamerule",
+    "description": "用于更改或查询当前世界的游戏规则。",
+    "year": 2022,
+    "month": 7,
+    "day": 13
+  },
+  {
+    "url": "/commands/give",
+    "title": "/give",
+    "description": "给予玩家物品。",
+    "year": 2022,
+    "month": 7,
+    "day": 13
+  },
+  {
+    "url": "/commands/help",
+    "title": "/help",
+    "description": "获取我的世界对于指令的帮助信息。此命令等效于/?。",
+    "year": 2022,
+    "month": 10,
+    "day": 11
+  },
+  {
+    "url": "/commands/kill",
+    "title": "/kill",
+    "description": "对实体进行清除。",
+    "year": 2022,
+    "month": 7,
+    "day": 13
+  },
+  {
+    "url": "/commands/list",
+    "title": "/list",
+    "description": "列出服务器当前在线的所有玩家的名称。",
+    "year": 2022,
+    "month": 7,
+    "day": 13
+  },
+  {
+    "url": "/commands/locate",
+    "title": "/locate",
+    "description": "向命令发出者显示距离最近的指定结构的坐标。",
+    "year": 2022,
+    "month": 7,
+    "day": 13
+  },
+  {
+    "url": "/commands/me",
+    "title": "/me",
+    "description": "自己对自己发送一条消息，仅自己可见。",
+    "year": 2022,
+    "month": 10,
+    "day": 11
+  },
+  {
+    "url": "/commands/mobevent",
+    "title": "/mobevent",
+    "description": "控制或查询生物事件。",
+    "year": 2023,
+    "month": 1,
+    "day": 7
+  },
+  {
+    "url": "/commands/msg",
+    "title": "/msg",
+    "description": "对其他玩家发送私聊消息。此命令等效于/tell和/w。",
+    "year": 2022,
+    "month": 7,
+    "day": 17
+  },
+  {
+    "url": "/commands/op",
+    "title": "/op",
+    "description": "给予玩家管理员权限。",
+    "year": 2022,
+    "month": 7,
+    "day": 15
+  },
+  {
+    "url": "/commands/particle",
+    "title": "/particle",
+    "description": "在某位置生成粒子效果。",
+    "year": 2022,
+    "month": 8,
+    "day": 2
+  },
+  {
+    "url": "/commands/playsound",
+    "title": "/playsound",
+    "description": "向玩家播放指定声音。",
+    "year": 2022,
+    "month": 7,
+    "day": 15
+  },
+  {
+    "url": "/commands/say",
+    "title": "/say",
+    "description": "在聊天栏向所有玩家发送文本消息。",
+    "year": 2022,
+    "month": 7,
+    "day": 13
+  },
+  {
+    "url": "/commands/scoreboard",
+    "title": "/scoreboard",
+    "description": "记录某一目标对应的分数信息并提供相应的查询、更改等操作。",
+    "year": 2022,
+    "month": 10,
+    "day": 9
+  },
+  {
+    "url": "/commands/setblock",
+    "title": "/setblock",
+    "description": "在指定的一个坐标放置方块。",
+    "year": 2023,
+    "month": 1,
+    "day": 8
+  },
+  {
+    "url": "/commands/spreadplayers",
+    "title": "/spreadplayers",
+    "description": "将实体随机传送至某一指定区域内的随机位置。",
+    "year": 2022,
+    "month": 8,
+    "day": 9
+  },
+  {
+    "url": "/commands/structure",
+    "title": "/structure",
+    "description": "其功能类似于结构方块，可对结构进行保存、加载、删除等操作。",
+    "year": 2022,
+    "month": 7,
+    "day": 16
+  },
+  {
+    "url": "/commands/tell",
+    "title": "/tell",
+    "description": "对其他玩家发送私聊消息。此命令等效于/msg和/w。",
+    "year": 2022,
+    "month": 7,
+    "day": 17
+  },
+  {
+    "url": "/commands/testfor",
+    "title": "/testfor",
+    "description": "检测指定目标的存在与否。",
+    "year": 2022,
+    "month": 10,
+    "day": 9
+  },
+  {
+    "url": "/commands/tickingarea",
+    "title": "/tickingarea",
+    "description": "对常加载区块进行操作。",
+    "year": 2022,
+    "month": 7,
+    "day": 15
+  },
+  {
+    "url": "/commands/toggledownfall",
+    "title": "/toggledownfall",
+    "description": "设置当前世界的天气。",
+    "year": 2022,
+    "month": 7,
+    "day": 18
+  },
+  {
+    "url": "/commands/title",
+    "title": "/title",
+    "description": "可以用于在玩家屏幕上显示文字。",
+    "year": 2022,
+    "month": 7,
+    "day": 13
+  },
+  {
+    "url": "/commands/w",
+    "title": "/w",
+    "description": "对其他玩家发送私聊消息。此命令等效于/msg和/tell。",
+    "year": 2022,
+    "month": 7,
+    "day": 17
+  },
+  {
+    "url": "/commands/weather",
+    "title": "/weather",
+    "description": "设置当前世界的天气。",
+    "year": 2022,
+    "month": 7,
+    "day": 18
+  },
+  {
+    "url": "/commands/xp",
+    "title": "/xp",
+    "description": "给予或扣除玩家的经验。",
+    "year": 2022,
+    "month": 7,
+    "day": 13
+  }
+]

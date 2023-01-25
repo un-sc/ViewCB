@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: viewcb.net/sitemap.xml
