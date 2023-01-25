@@ -1,0 +1,17 @@
+import Form from './form';
+import FormItem from './form-item';
+import FormControl from './control';
+import FormList from './form-list';
+import FormProvider from './form-provider';
+import useForm from './useForm';
+import useWatch from './hooks/useWatch';
+import useFormContext from './hooks/useContext';
+var FormComp = Form;
+FormComp.Provider = FormProvider;
+FormComp.Item = FormItem;
+FormComp.List = FormList;
+FormComp.Control = FormControl;
+FormComp.useForm = useForm;
+FormComp.useFormContext = useFormContext;
+FormComp.useWatch = useWatch;
+export default FormComp;
