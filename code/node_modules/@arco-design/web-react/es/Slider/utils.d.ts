@@ -1,8 +1,0 @@
-import { IntervalConfig } from './hooks/useInterval';
-export declare function getPrecision(val: any): number;
-export declare function formatPercent(val: any): string;
-export declare function getOffset(val: number | string, range?: number[]): number;
-export declare function valueInRange(val: number | string, range: number[]): boolean;
-export declare function isNotEmpty(val: any): any;
-export declare function rateToFloat(val: string | number): number;
-export declare function getIntervalOffset(val: any, intervalConfig: IntervalConfig[]): number;
