@@ -55,7 +55,7 @@ export default function About() {
                     <p className='lead'>ViewCB始终坚持尊重原创的态度，对于内容的引用都做出了明显的标记。同时ViewCB的大部分内容均为原创，可MC指令是具有标准性的，因此难免与他人会有雷同，这就好比说很多书上都提到了相同的一元二次方程解法，难道你能说他们是抄袭而来的吗？恐怕不行。</p>
                     <h2>关于ViewCB网站的建设</h2>
                     <p className='lead'>对于ViewCB网站的建设，我始终坚持快速、简洁、无障碍的理念。本站通过<a href='https://nodejs.org/' target='_blank'>Node.js</a>、<a href='https://reactjs.org/'>React</a>、<a href="https://nextjs.org/" target="_blank">Next.js</a>构建，通过<a href='https://arco.design/' target='_blank'>ArcoDesign</a>、<a href="https://v5.bootcss.com/" target="_blank">Bootstrap</a>、<a href='https://ant.design/' target="_blank">AntDesign</a>生成UI。通过构建时预渲染、服务端渲染、路由预加载、智能打包、零配置等和<a href='https://www.aliyun.com/product/dcdn' target='_blank'>阿里云DCDN</a>来实现高速访问。</p>
-                    <h2>加入ViewCB的QQ交流群</h2>
+                    <h2>加入ViewCB的QQ频道</h2>
                     <Row gutter={[24, 16]}>
                         <Col>
                             <QRCode
@@ -63,7 +63,7 @@ export default function About() {
                                     marginBottom: 16,
                                 }}
                                 errorLevel={level}
-                                value={"https://jq.qq.com/?_wv=1027&k=yYM18Myn"}
+                                value={"https://pd.qq.com/s/ffzks7nc7"}
                                 icon='https://public.viewcb.net/images/ViewTheViewCB.PNG'
                                 size={size}
                                 iconSize={size / 4}
@@ -90,8 +90,8 @@ export default function About() {
                                 </Col>
                             </Row>
                             <Row style={{marginTop:20}}>
-                                <Col><p className='lead'>QQ群号：</p></Col>
-                                <Col><a target="_blank" href='https://jq.qq.com/?_wv=1027&k=yYM18Myn'><Paragraph style={{ fontSize: "1.25rem", fontWeight: 300, color: "#5757ff" }} copyable >718087649</Paragraph></a></Col>
+                                <Col><p className='lead'>QQ频道号：</p></Col>
+                                <Col><a target="_blank" href='https://pd.qq.com/s/ffzks7nc7'><Paragraph style={{ fontSize: "1.25rem", fontWeight: 300, color: "#5757ff" }} copyable >viewcb271828</Paragraph></a></Col>
                             </Row>
                         </Col>
                     </Row>
