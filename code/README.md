@@ -18,12 +18,6 @@ ViewCB始终**坚持尊重原创的态度**，对于内容的引用都做出了�
 
 如果您对本项目有兴趣，但对[React](https://reactjs.org/ "React")和[Next.js](https://nextjs.org/ "Next.js")不熟悉，建议您先行学习。本项目也不是什么网站模板、建站资源，仅供交流学习。**包括我自己在内也在不断学习，项目也在不断优化**。
 
-## 加入ViewCB的QQ交流群
-
-ViewCB的QQ交流群：[718087649](https://jq.qq.com/?_wv=1027&k=yYM18Myn "718087649")
-
-[![ViewCB的QQ交流群二维码](https://public.viewcb.net/images/QQGroupQRcode2.png "ViewCB的QQ交流群二维码")](https://public.viewcb.net/images/QQGroupQRcode2.png "ViewCB的QQ交流群二维码")
-
 ## 如何提出修改意见或反馈错误？
 
 您可以[前往此处](https://www.wenjuan.com/s/UZBZJv18XE3/ "前往此处")提交您的宝贵意见、或者要补充的内容（如果内容过长您可以上传文件）。
