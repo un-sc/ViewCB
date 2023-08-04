@@ -59,7 +59,7 @@ export default function Contribute() {
                                     marginBottom: 16,
                                 }}
                                 errorLevel={level}
-                                value={"https://jq.qq.com/?_wv=1027&k=yYM18Myn"}
+                                value={"https://pd.qq.com/s/ffzks7nc7"}
                                 icon='https://public.viewcb.net/images/ViewTheViewCB.PNG'
                                 size={size}
                                 iconSize={size / 4}
@@ -86,12 +86,12 @@ export default function Contribute() {
                                 </Col>
                             </Row>
                             <Row style={{ marginTop: 20 }}>
-                                <Col><p className='lead'>QQ群号：</p></Col>
-                                <Col><a target="_blank" href='https://jq.qq.com/?_wv=1027&k=yYM18Myn'><Paragraph style={{ fontSize: "1.25rem", fontWeight: 300, color: "#5757ff" }} copyable >718087649</Paragraph></a></Col>
+                                <Col><p className='lead'>QQ频道号：</p></Col>
+                                <Col><a target="_blank" href='https://pd.qq.com/s/ffzks7nc7'><Paragraph style={{ fontSize: "1.25rem", fontWeight: 300, color: "#5757ff" }} copyable >viewcb271828</Paragraph></a></Col>
                             </Row>
                         </Col>
                     </Row>
-                    <p>PS：扫描二维码加入ViewCB的QQ群，二维码越复杂，识别准确率越高，但是不适应小图片或分辨率低的图片(会看不清楚)，您可以自己调整二维码复杂率和图片大小。</p>
+                    <p>PS：扫描二维码加入ViewCB的QQ频道，二维码越复杂，识别准确率越高，但是不适应小图片或分辨率低的图片(会看不清楚)，您可以自己调整二维码复杂率和图片大小。</p>
                     <Divider
                         style={{
                             borderBottomWidth: 2,
