@@ -27,9 +27,9 @@ const data = [
         value: '2779799659@qq.com',
     },
     {
-        label: 'ViewCB交流群',
+        label: 'ViewCB的QQ频道',
         value: (
-            <a target="_blank" href='https://jq.qq.com/?_wv=1027&k=yYM18Myn'><Paragraph style={{ fontWeight: 400, color: "#5757ff" }} copyable >718087649</Paragraph></a>
+            <a target="_blank" href='https://pd.qq.com/s/ffzks7nc7'><Paragraph style={{ fontWeight: 400, color: "#5757ff" }} copyable >viewcb271828</Paragraph></a>
         )
     },
 ];
