@@ -34,18 +34,18 @@ export default function Post({ postData }) {
             title: "页面链接复制成功",
             content: (
                 <>
-                    <p className='lead'>欢迎加入ViewCB的QQ讨论群</p>
+                    <p className='lead'>欢迎加入ViewCB的QQ频道</p>
 
                     <Row>
-                        <Col><p className='lead'>QQ群号：</p></Col>
-                        <Col><a target="_blank" href='https://jq.qq.com/?_wv=1027&k=yYM18Myn'><Paragraph style={{ fontSize: "1.25rem", fontWeight: 300, color: "#5757ff" }} copyable >718087649</Paragraph></a></Col>
+                        <Col><p className='lead'>QQ频道号：</p></Col>
+                        <Col><a target="_blank" href='https://pd.qq.com/s/ffzks7nc7'><Paragraph style={{ fontSize: "1.25rem", fontWeight: 300, color: "#5757ff" }} copyable >viewcb271828</Paragraph></a></Col>
                     </Row>
                     <QRCode
                         style={{
                             marginBottom: 16,
                         }}
                         errorLevel='M'
-                        value="https://jq.qq.com/?_wv=1027&k=yYM18Myn"
+                        value="https://pd.qq.com/s/ffzks7nc7"
                         icon='https://public.viewcb.net/images/V.JPEG'
                         size={160}
                         iconSize={40}
@@ -161,19 +161,19 @@ export default function Post({ postData }) {
 
                 <Modal title="复制成功" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} centered>
                     <p>页面链接复制成功</p>
-                    <p className='lead'>欢迎加入ViewCB的QQ讨论群</p>
-                    <p className='lead'>QQ群号：<Link href='https://jq.qq.com/?_wv=1027&k=yYM18Myn'>718087649</Link></p>
+                    <p className='lead'>欢迎加入ViewCB的QQ频道</p>
+                    <p className='lead'>QQ频道号：<Link href='https://pd.qq.com/s/ffzks7nc7'>viewcb271828</Link></p>
                     <QRCode
                         style={{
                             marginBottom: 16,
                         }}
                         errorLevel='M'
-                        value="https://jq.qq.com/?_wv=1027&k=yYM18Myn"
+                        value="https://pd.qq.com/s/ffzks7nc7"
                         icon='https://public.viewcb.net/images/V.JPEG'
                         size={160}
                         iconSize={40}
                     />
-                    <i>扫描二维码加入群聊</i>
+                    <i>扫描二维码加入ViewCB的QQ频道</i>
                 </Modal>
                 <hr />
                 <ul className="nav nav-pills">
