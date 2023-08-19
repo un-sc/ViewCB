@@ -110,6 +110,7 @@ export default function Footer() {
                     <Row style={{ marginLeft: 20 }}>
                         <Col><p id="time" style={{ color: "white" }}></p></Col>
                         <Col><p style={{ color: "white" }}>路漫漫其修远兮，吾将上下而求索</p></Col>
+                        <Col><p style={{ color: "white" }}><a href="https://notbyai.fyi" target='_blank'><img src="https://notbyai.fyi/img/written-by-human-not-by-ai-white.svg" alt="Written by Human, Not by AI"></a></p></Col>
                     </Row>
 
                 </Col>
